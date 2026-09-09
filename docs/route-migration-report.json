@@ -1,0 +1,829 @@
+{
+  "originalSitemapRoutes": [
+    {
+      "path": "/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/comments/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/blog/",
+      "kind": "blog",
+      "status": 200
+    },
+    {
+      "path": "/galeria/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/quienes-somos/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/contacto/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/newsletter/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/preguntas-frecuentes/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/politica-privacidad/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/arte/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/cultura/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/dota/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/lacueva/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/proximos-eventos/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/politica-privacidad/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/arte/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tita-y-la-cueva-dota/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/tag/cultura/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/dota/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/lacueva/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tita-y-la-cueva-dota/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/internacional/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/mujeres/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/personajes/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/internacional/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/mujeres/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/personajes/feed/",
+      "kind": "feed",
+      "status": 200
+    }
+  ],
+  "canonicalHtmlRoutes": [
+    "/",
+    "/blog/",
+    "/galeria/",
+    "/newsletter/",
+    "/proximos-eventos/",
+    "/preguntas-frecuentes/",
+    "/contacto/",
+    "/quienes-somos/",
+    "/politica-privacidad/",
+    "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/",
+    "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/",
+    "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/",
+    "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/",
+    "/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/",
+    "/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/",
+    "/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/",
+    "/puerko-xpin-el-regreso-de-una-leyenda-local/",
+    "/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/",
+    "/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/",
+    "/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/",
+    "/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/",
+    "/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/",
+    "/tita-y-la-cueva-dota/",
+    "/tag/arte/",
+    "/tag/cultura/",
+    "/tag/dota/",
+    "/tag/lacueva/",
+    "/tag/internacional/",
+    "/tag/mujeres/",
+    "/tag/personajes/"
+  ],
+  "feeds": [
+    "/feed/",
+    "/comments/feed/",
+    "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/feed/",
+    "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/feed/",
+    "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/feed/",
+    "/politica-privacidad/feed/",
+    "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/feed/",
+    "/tag/arte/feed/",
+    "/tag/cultura/feed/",
+    "/tag/dota/feed/",
+    "/tag/lacueva/feed/",
+    "/tita-y-la-cueva-dota/feed/",
+    "/tag/internacional/feed/",
+    "/tag/mujeres/feed/",
+    "/tag/personajes/feed/",
+    "/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/feed/",
+    "/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/feed/",
+    "/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/feed/",
+    "/puerko-xpin-el-regreso-de-una-leyenda-local/feed/",
+    "/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/feed/",
+    "/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/feed/",
+    "/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/feed/",
+    "/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/feed/",
+    "/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/feed/"
+  ],
+  "redirects": [
+    {
+      "from": "/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025",
+      "to": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/"
+    },
+    {
+      "from": "/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/",
+      "to": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/"
+    },
+    {
+      "from": "/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock",
+      "to": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/"
+    },
+    {
+      "from": "/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/",
+      "to": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/"
+    },
+    {
+      "from": "/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina",
+      "to": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/"
+    },
+    {
+      "from": "/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/",
+      "to": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/"
+    },
+    {
+      "from": "/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar",
+      "to": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/"
+    },
+    {
+      "from": "/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/",
+      "to": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/"
+    },
+    {
+      "from": "/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono",
+      "to": "/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/"
+    },
+    {
+      "from": "/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/",
+      "to": "/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/"
+    },
+    {
+      "from": "/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad",
+      "to": "/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/"
+    },
+    {
+      "from": "/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/",
+      "to": "/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/"
+    },
+    {
+      "from": "/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia",
+      "to": "/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/"
+    },
+    {
+      "from": "/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/",
+      "to": "/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/"
+    },
+    {
+      "from": "/blog/puerko-xpin-el-regreso-de-una-leyenda-local",
+      "to": "/puerko-xpin-el-regreso-de-una-leyenda-local/"
+    },
+    {
+      "from": "/blog/puerko-xpin-el-regreso-de-una-leyenda-local/",
+      "to": "/puerko-xpin-el-regreso-de-una-leyenda-local/"
+    },
+    {
+      "from": "/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico",
+      "to": "/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/"
+    },
+    {
+      "from": "/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/",
+      "to": "/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/"
+    },
+    {
+      "from": "/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos",
+      "to": "/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/"
+    },
+    {
+      "from": "/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/",
+      "to": "/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/"
+    },
+    {
+      "from": "/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras",
+      "to": "/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/"
+    },
+    {
+      "from": "/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/",
+      "to": "/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/"
+    },
+    {
+      "from": "/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025",
+      "to": "/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/"
+    },
+    {
+      "from": "/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/",
+      "to": "/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/"
+    },
+    {
+      "from": "/blog/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz",
+      "to": "/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/"
+    },
+    {
+      "from": "/blog/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/",
+      "to": "/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/"
+    },
+    {
+      "from": "/blog/tita-y-la-cueva-dota",
+      "to": "/tita-y-la-cueva-dota/"
+    },
+    {
+      "from": "/blog/tita-y-la-cueva-dota/",
+      "to": "/tita-y-la-cueva-dota/"
+    },
+    {
+      "from": "/inicio",
+      "to": "/"
+    },
+    {
+      "from": "/inicio/",
+      "to": "/"
+    },
+    {
+      "from": "/blog",
+      "to": "/blog/"
+    },
+    {
+      "from": "/galeria",
+      "to": "/galeria/"
+    },
+    {
+      "from": "/newsletter",
+      "to": "/newsletter/"
+    },
+    {
+      "from": "/proximos-eventos",
+      "to": "/proximos-eventos/"
+    },
+    {
+      "from": "/preguntas-frecuentes",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/contacto",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/quienes-somos",
+      "to": "/quienes-somos/"
+    },
+    {
+      "from": "/politica-privacidad",
+      "to": "/politica-privacidad/"
+    },
+    {
+      "from": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025",
+      "to": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/"
+    },
+    {
+      "from": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock",
+      "to": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/"
+    },
+    {
+      "from": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina",
+      "to": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/"
+    },
+    {
+      "from": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar",
+      "to": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/"
+    },
+    {
+      "from": "/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono",
+      "to": "/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/"
+    },
+    {
+      "from": "/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad",
+      "to": "/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/"
+    },
+    {
+      "from": "/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia",
+      "to": "/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/"
+    },
+    {
+      "from": "/puerko-xpin-el-regreso-de-una-leyenda-local",
+      "to": "/puerko-xpin-el-regreso-de-una-leyenda-local/"
+    },
+    {
+      "from": "/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico",
+      "to": "/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/"
+    },
+    {
+      "from": "/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos",
+      "to": "/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/"
+    },
+    {
+      "from": "/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras",
+      "to": "/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/"
+    },
+    {
+      "from": "/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025",
+      "to": "/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/"
+    },
+    {
+      "from": "/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz",
+      "to": "/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/"
+    },
+    {
+      "from": "/tita-y-la-cueva-dota",
+      "to": "/tita-y-la-cueva-dota/"
+    },
+    {
+      "from": "/tag/arte",
+      "to": "/tag/arte/"
+    },
+    {
+      "from": "/tag/cultura",
+      "to": "/tag/cultura/"
+    },
+    {
+      "from": "/tag/dota",
+      "to": "/tag/dota/"
+    },
+    {
+      "from": "/tag/lacueva",
+      "to": "/tag/lacueva/"
+    },
+    {
+      "from": "/tag/internacional",
+      "to": "/tag/internacional/"
+    },
+    {
+      "from": "/tag/mujeres",
+      "to": "/tag/mujeres/"
+    },
+    {
+      "from": "/tag/personajes",
+      "to": "/tag/personajes/"
+    },
+    {
+      "from": "/wp-content/uploads/2025/11/DSC5168_1_11zon-scaled.jpg",
+      "to": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/11/DSC5239_2_11zon-scaled.jpg",
+      "to": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/11/DSC_9736-Mejorado-NR_4_11zon-200x300.jpg",
+      "to": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/11/DSC_9539-Mejorado-NR_3_11zon-200x300.jpg",
+      "to": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/11/DSC_9753-Mejorado-NR_5_11zon-200x300.jpg",
+      "to": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-05.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/11/DSC_9809-Mejorado-NR_6_11zon-200x300.jpg",
+      "to": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-06.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/3.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/1.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/2-1024x768.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/3-1024x768.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/4-1024x768.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/5-1024x768.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-05.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/6-1024x768.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-06.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/7-1024x768.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-07.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/8-819x1024.jpeg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-08.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/9.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-09.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/10.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-10.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/11.jpg",
+      "to": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-11.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/08/1000538402-e1754523907773.jpg",
+      "to": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/08/Screenshot-2025-08-06-173710_2_11zon-994x1024.png",
+      "to": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-01.png"
+    },
+    {
+      "from": "/wp-content/uploads/2025/08/Screenshot-2025-08-06-173505_1_11zon-1024x910.png",
+      "to": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-02.png"
+    },
+    {
+      "from": "/wp-content/uploads/2025/08/Screenshot-2025-08-06-173728_3_11zon-1024x675.png",
+      "to": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-03.png"
+    },
+    {
+      "from": "/wp-content/uploads/2025/08/1000538402-1-1024x1024.jpg",
+      "to": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/08/1000538419-819x1024.png",
+      "to": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-05.png"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2886-346_1_11zon-scaled.jpg",
+      "to": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2887-347_2_11zon-1024x683.jpg",
+      "to": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2867-331_11zon-1024x682.jpg",
+      "to": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2897-350_3_11zon-1024x683.jpg",
+      "to": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2886-346_1_11zon-1024x683.jpg",
+      "to": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2589-216_2_11zon-scaled.jpg",
+      "to": "/images/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2594-218_4_11zon-1024x683.jpg",
+      "to": "/images/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2591-217_3_11zon-1024x683.jpg",
+      "to": "/images/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2588-215_1_11zon-1024x683.jpg",
+      "to": "/images/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2730-280_4_11zon.jpg",
+      "to": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2730-280_4_11zon-1024x683.jpg",
+      "to": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2725-276_3_11zon-1024x683.jpg",
+      "to": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2719-272_2_11zon-1024x683.jpg",
+      "to": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2716-270_1_11zon-1024x683.jpg",
+      "to": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2746-282_5_11zon.jpg",
+      "to": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2610-226_1_11zon-1024x683.jpg",
+      "to": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2616-231_2_11zon-1024x683.jpg",
+      "to": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2620-234_3_11zon-1024x683.jpg",
+      "to": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2639-242_4_11zon-1024x683.jpg",
+      "to": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2746-282_5_11zon-1024x683.jpg",
+      "to": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-05.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2480-150_4_11zon.jpg",
+      "to": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2493-158_5_11zon-1024x683.jpg",
+      "to": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2480-150_4_11zon-1024x683.jpg",
+      "to": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2424-131_3_11zon-1024x683.jpg",
+      "to": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2421-129_2_11zon-1024x683.jpg",
+      "to": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2412-125_1_11zon-1024x683.jpg",
+      "to": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-05.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2566-202_2_11zon.jpg",
+      "to": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2571-206_5_11zon-1024x683.jpg",
+      "to": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2569-204_4_11zon-1024x683.jpg",
+      "to": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2568-203_3_11zon-1024x683.jpg",
+      "to": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2566-202_2_11zon-1024x683.jpg",
+      "to": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2564-200_1_11zon-1024x683.jpg",
+      "to": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-05.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2321-62_3_11zon-scaled.jpg",
+      "to": "/images/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2337-73_4_11zon-scaled.jpg",
+      "to": "/images/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2312-56_2_11zon-scaled.jpg",
+      "to": "/images/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2304-51_1_11zon-scaled.jpg",
+      "to": "/images/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/image-04.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2817-308_10_11zon-scaled.jpg",
+      "to": "/images/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2813-306_9_11zon-scaled.jpg",
+      "to": "/images/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2812-305_8_11zon-scaled.jpg",
+      "to": "/images/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/image-03.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2668-259-scaled.jpg",
+      "to": "/images/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2689-266-scaled.jpg",
+      "to": "/images/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/image-01.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/RET2672-260-scaled.jpg",
+      "to": "/images/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/image-02.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/04/Copia-de-_RET3001-417-3-scaled.jpg",
+      "to": "/images/blog/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/thumbnail.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/tita.webp",
+      "to": "/images/blog/tita-y-la-cueva-dota/thumbnail.webp"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/tita-1-e1694057577540-1024x1024.webp",
+      "to": "/images/blog/tita-y-la-cueva-dota/image-01.webp"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/entrevista_Tita_01.mp4",
+      "to": "/images/blog/tita-y-la-cueva-dota/media-1.mp4"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/entrevista_Tita_02.mp4",
+      "to": "/images/blog/tita-y-la-cueva-dota/media-2.mp4"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/325957634_1353849048717096_1859619040281664698_n.jpg",
+      "to": "/images/pages/325957634_1353849048717096_1859619040281664698_n.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/17580-e1608772315136.jpg",
+      "to": "/images/pages/17580-e1608772315136.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/05/RET2591-217_3_11zon-scaled.jpg",
+      "to": "/images/pages/RET2591-217_3_11zon-scaled.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/10/1000063474.jpg",
+      "to": "/images/pages/1000063474.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/09/STEPHANIE.webp",
+      "to": "/images/pages/STEPHANIE.webp"
+    },
+    {
+      "from": "/wp-content/uploads/2025/09/Copia-de-Logo-Coopedota-1.jpeg",
+      "to": "/images/pages/Copia-de-Logo-Coopedota-1.jpeg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/09/RET-LOGO-COLOR.svg",
+      "to": "/images/pages/RET-LOGO-COLOR.svg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/3440061.jpg",
+      "to": "/images/pages/3440061.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/07/B2.webp",
+      "to": "/images/pages/B2.webp"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/3382325-e1608772297778.jpg",
+      "to": "/images/pages/3382325-e1608772297778.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/05/3440061-e1608772039374.jpg",
+      "to": "/images/pages/3440061-e1608772039374.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/07/130.jpg",
+      "to": "/images/pages/130.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/07/5.jpg",
+      "to": "/images/pages/5.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2023/07/16.jpg",
+      "to": "/images/pages/16.jpg"
+    },
+    {
+      "from": "/wp-content/uploads/2025/09/WhatsApp-Image-2025-08-31-at-20.32.24-1024x840.jpeg",
+      "to": "/images/pages/WhatsApp-Image-2025-08-31-at-20.32.24-1024x840.jpeg"
+    }
+  ],
+  "notes": [
+    "HTML includes complete React-rendered page content before JavaScript.",
+    "Comment feeds are retained as valid empty RSS channels; old comments were outside the migration scope.",
+    "Apache and Netlify/Cloudflare-compatible rules are generated in dist. Hosting support must be confirmed at publication."
+  ]
+}

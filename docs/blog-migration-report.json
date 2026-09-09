@@ -1,0 +1,565 @@
+{
+  "source": "https://santosrock.com/wp-json/wp/v2/posts",
+  "fetchedAt": "2026-09-08T15:46:39.971Z",
+  "totalAvailable": 14,
+  "pages": 1,
+  "migrated": [
+    {
+      "id": 2561,
+      "title": "Cuando el aula se convierte en tarima: Zavaleta Music Fest 2025",
+      "slug": "cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025",
+      "sourceContentSha256": "dd11c038422df643e0484db476fdbe9e30e6ab0b336b637fc9d93a24c891e212",
+      "images": 6,
+      "videos": 0,
+      "embeds": 0
+    },
+    {
+      "id": 2457,
+      "title": "Un festival veinte años después: Una historia personal del Santos Rock",
+      "slug": "un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock",
+      "sourceContentSha256": "fbadce7e0cb498d0a1428c21a3d98c8032ac187045ea39e416db26aa523aedd8",
+      "images": 11,
+      "videos": 0,
+      "embeds": 0
+    },
+    {
+      "id": 2137,
+      "title": "Artistas de la Zona de los Santos representan a Costa Rica en álbum internacional por Palestina",
+      "slug": "artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina",
+      "sourceContentSha256": "f09a13204bfedd32da8d60759378d3e4b3657417122b1849d52dfd3ac374a0bd",
+      "images": 5,
+      "videos": 0,
+      "embeds": 1
+    },
+    {
+      "id": 2041,
+      "title": "Santo Remedio en Santos Rock 2025: Música con alma y conexión familiar",
+      "slug": "santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar",
+      "sourceContentSha256": "dacc8db0fbb0488423416f0aa0daef149722c18a1119e47023da8e04d1317233",
+      "images": 4,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 2002,
+      "title": "No Apto Para Consumo en Santos Rock 2025: Punk, pasión y voces al unísono",
+      "slug": "no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono",
+      "sourceContentSha256": "90c5ee2f5ff755895f9e2abb0e5c0a6a6531f20b8a492b4d832a4d0ec33e7ea7",
+      "images": 3,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 1980,
+      "title": "Alphabetics en Santos Rock 2025: Debut en Los Santos con honestidad y explosividad",
+      "slug": "alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad",
+      "sourceContentSha256": "8b1480cf48ef0f2e1e79b33c5b30b66f6e0e1f814c764d788da35ff886b1145a",
+      "images": 4,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 1970,
+      "title": "Overseas en Santos Rock 2025: Comunidad, diversidad y mosh como terapia",
+      "slug": "overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia",
+      "sourceContentSha256": "49acee49f3a902b5537a93cc9c97dc5b36ec83e8c4709deaab3920238ea1d075",
+      "images": 5,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 1938,
+      "title": "Puerko Xpin: El regreso de una leyenda local.",
+      "slug": "puerko-xpin-el-regreso-de-una-leyenda-local",
+      "sourceContentSha256": "13cf1584036df1c9c6b309e5992a449e57e15cd2f0812c6ee09faf1fbdabf825",
+      "images": 5,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 1924,
+      "title": "Overshock en Santos Rock 2025: Mosh, energía y conexión con el público",
+      "slug": "overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico",
+      "sourceContentSha256": "21995826d87e68738c0de37f593820022972104ef25c3f4e5c593b0ce7ca5bf3",
+      "images": 5,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 1880,
+      "title": "Ominosa regresa con fuerza al Santos Rock 2025: un reencuentro con la comunidad metalera de Los Santos",
+      "slug": "ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos",
+      "sourceContentSha256": "c47b3d9ebe19edbfff374324c2c03937dfae8effe8fe0b6a3ac384558a54c2f9",
+      "images": 4,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 1859,
+      "title": "Chemicide en Santos Rock 2025: thrash metal costarricense que trasciende fronteras",
+      "slug": "chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras",
+      "sourceContentSha256": "bf853fe9c336178598679b4ef7e8874b22f4518516462d1f4fb4eaf1fddeb45e",
+      "images": 3,
+      "videos": 0,
+      "embeds": 1
+    },
+    {
+      "id": 1844,
+      "title": "Rana Bruja: Magia, energía y surf en el escenario del Santos Rock 2025",
+      "slug": "rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025",
+      "sourceContentSha256": "cf3c2d38cd1c2d7bde89916963937fb04f1ba14376a97d0630ae5686b66492b0",
+      "images": 3,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 1814,
+      "title": "Fuerza Dread en Santos Rock 2025: compromiso, emoción y reggae con raíz",
+      "slug": "fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz",
+      "sourceContentSha256": "f8ce97143d082399e911d2c70276a728df38a326b8fcda2c68ec9b1ef2fd3aa1",
+      "images": 1,
+      "videos": 0,
+      "embeds": 2
+    },
+    {
+      "id": 265,
+      "title": "Tita y La Cueva del Zoncho",
+      "slug": "tita-y-la-cueva-dota",
+      "sourceContentSha256": "c3035cca496ce35f23e4a24bffe2c23eb7f57aba076d7226468a0811a9ad0f86",
+      "images": 1,
+      "videos": 2,
+      "embeds": 0
+    }
+  ],
+  "spamExcluded": [],
+  "manualReview": [],
+  "droppedEmbeds": [],
+  "assets": [
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/11/DSC5168_1_11zon-scaled.jpg",
+      "local": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/thumbnail.jpg",
+      "bytes": 259457,
+      "sha256": "f211be55a2c9b5ba2d376752bdaa1d4b1fbc6fe96aeb614530155b8ad8aea771"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/11/DSC5239_2_11zon-scaled.jpg",
+      "local": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-02.jpg",
+      "bytes": 360476,
+      "sha256": "c00cd831cbeecfc8123bd9653301a085a31002d21e0f2bf54cc39e89557460fa"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/11/DSC_9736-Mejorado-NR_4_11zon-200x300.jpg",
+      "local": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-03.jpg",
+      "bytes": 9717,
+      "sha256": "bd6e4b9542ebdb7364e1db6521a5e5ff2f4b8b6b75bf076559ec4dab152f7391"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/11/DSC_9539-Mejorado-NR_3_11zon-200x300.jpg",
+      "local": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-04.jpg",
+      "bytes": 7457,
+      "sha256": "96ea99a7f8b4c48d23df7333456e4ee28c9f822731797520688d7c8fc3950edb"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/11/DSC_9753-Mejorado-NR_5_11zon-200x300.jpg",
+      "local": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-05.jpg",
+      "bytes": 12725,
+      "sha256": "7253523f52a0c3594493f25cb4717835530803ac9cf1ca4dbaeaed106b146666"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/11/DSC_9809-Mejorado-NR_6_11zon-200x300.jpg",
+      "local": "/images/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/image-06.jpg",
+      "bytes": 8155,
+      "sha256": "79bce9d0fee0affadf5f403d4a3b171f8152585241647c9222dbf85b69d62dd4"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/3.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/thumbnail.jpg",
+      "bytes": 1517217,
+      "sha256": "86c9dfe730c386b0462b0a6d4f594c42a40eccf48d5585aaca7586f36653aacb"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/1.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-01.jpg",
+      "bytes": 41414,
+      "sha256": "6a05b729c3e2baa1a9ce491a0f914a813945686d7413c4b32f67e0e1d722d3af"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/2-1024x768.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-02.jpg",
+      "bytes": 176893,
+      "sha256": "e54c97249ed5253f55684b750fd20bc0749ca9670bf834fd05f357fbca37c297"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/3-1024x768.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-03.jpg",
+      "bytes": 152482,
+      "sha256": "6060f33ad42cda34a9e919fc54c71beaf5e049a5a84d7f14521aa80fcd3b0bb7"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/4-1024x768.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-04.jpg",
+      "bytes": 167453,
+      "sha256": "08a8bef936a109b28731e25ad6afdb9ed720a16137c3b88f671bb937093f58b8"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/5-1024x768.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-05.jpg",
+      "bytes": 203401,
+      "sha256": "fe78373fc768db04ea07d3d4f382e2f68d22608034ece767bc4b476412e04c01"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/6-1024x768.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-06.jpg",
+      "bytes": 208002,
+      "sha256": "8f6808d3ec28f89215d54c5333c8da4fab51c6a5a51c89a14fb33d8a6c0d706e"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/7-1024x768.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-07.jpg",
+      "bytes": 184317,
+      "sha256": "44906f9c31c4bcd9f3c5d679c6749ef8703128bbb2277fc319c579d4024233d9"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/8-819x1024.jpeg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-08.jpg",
+      "bytes": 109704,
+      "sha256": "4866d96dc2f4b7eb7db2ee492c95a6c867ad8a97ab8555fc19f4cb5d576cbeb6"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/9.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-09.jpg",
+      "bytes": 294454,
+      "sha256": "af9fa5d834c8639f5c7c3059b80cddab945fe9ae5b4009b5a8857ea78c70f0f0"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/10.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-10.jpg",
+      "bytes": 259446,
+      "sha256": "02de8b7d05719c78a49f0c760e48d173e4ba0dec035908f45b6c3e8a4c2697dc"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/11.jpg",
+      "local": "/images/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/image-11.jpg",
+      "bytes": 227365,
+      "sha256": "77fdabd89a3664a4ebceb4ad5b8aacea0a0cd0c32ef8d24bae3ef0a107454e8f"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/08/1000538402-e1754523907773.jpg",
+      "local": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/thumbnail.jpg",
+      "bytes": 366401,
+      "sha256": "6d108f18356c38952431e114d35a5025e54f6ef325f5bedadba2ce0f10084f8e"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/08/Screenshot-2025-08-06-173710_2_11zon-994x1024.png",
+      "local": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-01.png",
+      "bytes": 373992,
+      "sha256": "f11ecf471b2447c8fee89e3616fe55be9b7d8f8256b10bc5e082b36ad1b1df19"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/08/Screenshot-2025-08-06-173505_1_11zon-1024x910.png",
+      "local": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-02.png",
+      "bytes": 371866,
+      "sha256": "01c94daca3212452edb6c977136d4048038bbffe68f243735caa16b528ba9dcd"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/08/Screenshot-2025-08-06-173728_3_11zon-1024x675.png",
+      "local": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-03.png",
+      "bytes": 277093,
+      "sha256": "f42c2719add734f5416c5b3018a469ca3f55830e535a9e5af57e47d3cfee25b6"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/08/1000538402-1-1024x1024.jpg",
+      "local": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-04.jpg",
+      "bytes": 242097,
+      "sha256": "533745460122358fe69d4508c55891601a1e026959e5d410452ee8abfd6349fe"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/08/1000538419-819x1024.png",
+      "local": "/images/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/image-05.png",
+      "bytes": 211254,
+      "sha256": "a1445646a21e3c4047fa16073c7fcd71f153a81577681394258aa23f5a97ee6d"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2886-346_1_11zon-scaled.jpg",
+      "local": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/thumbnail.jpg",
+      "bytes": 889168,
+      "sha256": "3ee626dd87c60093307739b3859acf4e6336a9d96986bede04c5a87fc480a0c2"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2887-347_2_11zon-1024x683.jpg",
+      "local": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/image-01.jpg",
+      "bytes": 90120,
+      "sha256": "cb8f23fb59624f894044c66db4587b3acab49c7d4ef69801216392751231211c"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2867-331_11zon-1024x682.jpg",
+      "local": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/image-02.jpg",
+      "bytes": 82014,
+      "sha256": "82c0dd42771b3bae6d5f2c566dd4707cf2982f663fa6364b956cbac29eba82fe"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2897-350_3_11zon-1024x683.jpg",
+      "local": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/image-03.jpg",
+      "bytes": 92990,
+      "sha256": "4b8ff5666f7a924e0da573ece033d946277b552e31f158051b4e53d7a43e139c"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2886-346_1_11zon-1024x683.jpg",
+      "local": "/images/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/image-04.jpg",
+      "bytes": 149927,
+      "sha256": "0b64c573d5bf6c5e8b193c70f26586269a08855254e6e11f6b546a8f1a3f804b"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2589-216_2_11zon-scaled.jpg",
+      "local": "/images/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/thumbnail.jpg",
+      "bytes": 414733,
+      "sha256": "f3a839bdeb978fd8d46c62f444b52190eb34dcd11b90b22ab23b22eef31265d8"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2594-218_4_11zon-1024x683.jpg",
+      "local": "/images/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/image-01.jpg",
+      "bytes": 94283,
+      "sha256": "b1b0897d90fb994745c2e516a7ce6b5a186d065552bb8babf8ef900cb26f2d3f"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2591-217_3_11zon-1024x683.jpg",
+      "local": "/images/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/image-02.jpg",
+      "bytes": 100826,
+      "sha256": "36a76b1ae91d1855c46685e139f82324bb4b16ac0c22991f41204e343dfdd1e4"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2588-215_1_11zon-1024x683.jpg",
+      "local": "/images/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/image-03.jpg",
+      "bytes": 86269,
+      "sha256": "902365aa26fa7b458e73045a235536442794887ff8ae875444c0aa7dd7dfb82e"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2730-280_4_11zon.jpg",
+      "local": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/thumbnail.jpg",
+      "bytes": 22765,
+      "sha256": "291bf5337cf59485ecad83b0c2814bc1cadd58f1869147c35a2a25c3d5a0af3d"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2730-280_4_11zon-1024x683.jpg",
+      "local": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/image-01.jpg",
+      "bytes": 68066,
+      "sha256": "a1dd520bd2800b82c35dc34f14c1cdf2683c84ae29242d66f2a43e838b25b823"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2725-276_3_11zon-1024x683.jpg",
+      "local": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/image-02.jpg",
+      "bytes": 49722,
+      "sha256": "d65b548ba87be454b63b35912da7f0cfe5500c4c9de974851f459288bb5d9fe7"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2719-272_2_11zon-1024x683.jpg",
+      "local": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/image-03.jpg",
+      "bytes": 44571,
+      "sha256": "96c3e2da4ef441f36ff3fdecc30552056ddf9c22a3156357c6b8b792a27ba673"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2716-270_1_11zon-1024x683.jpg",
+      "local": "/images/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/image-04.jpg",
+      "bytes": 57452,
+      "sha256": "221da5d9e16344f255d5f566d84c28aff159c0174d32bd193e07852b6a039829"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2746-282_5_11zon.jpg",
+      "local": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/thumbnail.jpg",
+      "bytes": 17178,
+      "sha256": "d379eb51d2e52c6c18ffdd30012aece8a00884f2efc6bf5ad28aa35848bbdc21"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2610-226_1_11zon-1024x683.jpg",
+      "local": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-01.jpg",
+      "bytes": 68643,
+      "sha256": "882179414e5a69ef048911ab0b90b931c448dbe31a4c7666e7a0fd176dcaedfb"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2616-231_2_11zon-1024x683.jpg",
+      "local": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-02.jpg",
+      "bytes": 89716,
+      "sha256": "b7db76d7eb76e3d0fb9b06d5cf63b930d774657a4470972f380960a9e62a49fb"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2620-234_3_11zon-1024x683.jpg",
+      "local": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-03.jpg",
+      "bytes": 71309,
+      "sha256": "cc02092221c0d5451730565bfd599a9017456d363c760bea99f256fe07be916e"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2639-242_4_11zon-1024x683.jpg",
+      "local": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-04.jpg",
+      "bytes": 83385,
+      "sha256": "4229daec07e73c824ae5af0a5644081ccffad614c7c0ee3d5611d95778461c9f"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2746-282_5_11zon-1024x683.jpg",
+      "local": "/images/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/image-05.jpg",
+      "bytes": 55508,
+      "sha256": "f1ed33a1bb5f7df18e4ccd0b3a2e7da49b6ffe3c6bfa8cf571d8ba78fbdeb517"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2480-150_4_11zon.jpg",
+      "local": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/thumbnail.jpg",
+      "bytes": 16969,
+      "sha256": "4c3f11c27fbfdd8b2bcf0c260700a436f955498ac221628a3a0a074a5e7f0bbd"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2493-158_5_11zon-1024x683.jpg",
+      "local": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-01.jpg",
+      "bytes": 57714,
+      "sha256": "b08e7a0a328271057ebf0d3798658648e7df589da9f3f5f44c5f77e6a4e4a045"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2480-150_4_11zon-1024x683.jpg",
+      "local": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-02.jpg",
+      "bytes": 54661,
+      "sha256": "8314a22d700facab381d35b3c7a08913f083f292ea1a53bdc89f96882088e078"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2424-131_3_11zon-1024x683.jpg",
+      "local": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-03.jpg",
+      "bytes": 49032,
+      "sha256": "bfca830f277fef7e65fde5ef7645ca6ad97431d43376034773262e8ebc84a488"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2421-129_2_11zon-1024x683.jpg",
+      "local": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-04.jpg",
+      "bytes": 38560,
+      "sha256": "71cf052bb7afcd68845aa152cd3e40ae9d66ad8424782db7558386f402b83c42"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2412-125_1_11zon-1024x683.jpg",
+      "local": "/images/blog/puerko-xpin-el-regreso-de-una-leyenda-local/image-05.jpg",
+      "bytes": 61226,
+      "sha256": "a59b11c71d190b0bb58fb976c8e236e729c740a966d33c25370dace20f011723"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2566-202_2_11zon.jpg",
+      "local": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/thumbnail.jpg",
+      "bytes": 16829,
+      "sha256": "565069127c7f12e6947d59c47c19317a189defbc0d0438ba2a39e06fd0fdfa0a"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2571-206_5_11zon-1024x683.jpg",
+      "local": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-01.jpg",
+      "bytes": 64850,
+      "sha256": "f08bc10bf3549e8aa9d8c6a8b0190c2691efcaf064345f5540137665d59f4e73"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2569-204_4_11zon-1024x683.jpg",
+      "local": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-02.jpg",
+      "bytes": 66114,
+      "sha256": "640c11b413b2f4912166cfbdd24d2c8107b21c7c6c9c2130a8f259e09f459e47"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2568-203_3_11zon-1024x683.jpg",
+      "local": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-03.jpg",
+      "bytes": 66891,
+      "sha256": "78509824a7cd04512ac40b8fca9b97f5e15d9d263f5ae9dad855df37762fa906"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2566-202_2_11zon-1024x683.jpg",
+      "local": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-04.jpg",
+      "bytes": 57897,
+      "sha256": "84b71b51c736cd563586bfecb2f5c8dfddf6e3312fc48642da69dd9b9873f87f"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2564-200_1_11zon-1024x683.jpg",
+      "local": "/images/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/image-05.jpg",
+      "bytes": 73334,
+      "sha256": "8a57fdc14ffbca02f2e855e5c392706634fea6915439cc2312322bac717f50f4"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2321-62_3_11zon-scaled.jpg",
+      "local": "/images/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/thumbnail.jpg",
+      "bytes": 407217,
+      "sha256": "e25ec9e7cd05334454b259fa9908e6320a0edd564db5325a2bd66fba43f44495"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2337-73_4_11zon-scaled.jpg",
+      "local": "/images/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/image-01.jpg",
+      "bytes": 346727,
+      "sha256": "11288b51c14840ce876c3ac0cffa902cf55d394acaa02d1348e087762ac1a5a9"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2312-56_2_11zon-scaled.jpg",
+      "local": "/images/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/image-03.jpg",
+      "bytes": 502844,
+      "sha256": "955f2842e7a7353ef14541792752e42a3a30c2edd7ea71caeba1278eb5c637f9"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2304-51_1_11zon-scaled.jpg",
+      "local": "/images/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/image-04.jpg",
+      "bytes": 389535,
+      "sha256": "2443d3c24417973076f6870bac3fe4e1bdbbab9331829f0f7531b49cd745b1c8"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2817-308_10_11zon-scaled.jpg",
+      "local": "/images/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/thumbnail.jpg",
+      "bytes": 407378,
+      "sha256": "c36f592ad667153cdfd520ded0439d2b544add445cfa10b521e3902dc23cf561"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2813-306_9_11zon-scaled.jpg",
+      "local": "/images/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/image-02.jpg",
+      "bytes": 406020,
+      "sha256": "b1439e4aa81b744b5014b0e3c72175bef18a0dd3e50606d1641339c528fe5082"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2812-305_8_11zon-scaled.jpg",
+      "local": "/images/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/image-03.jpg",
+      "bytes": 431549,
+      "sha256": "65009081f20ff2911e0eb2a8ef803b8ac749ecfc45bf4b2ace302e5d604816e0"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2668-259-scaled.jpg",
+      "local": "/images/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/thumbnail.jpg",
+      "bytes": 246203,
+      "sha256": "3543582d1d77694a788a1a403186ed60d293a32dbca9466a1c171da34e8fc7ec"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2689-266-scaled.jpg",
+      "local": "/images/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/image-01.jpg",
+      "bytes": 300189,
+      "sha256": "e18a1c07d0cf8b73c5d42202f0139b3f23cf7932b0935e9184db95326fd07368"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/RET2672-260-scaled.jpg",
+      "local": "/images/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/image-02.jpg",
+      "bytes": 308963,
+      "sha256": "634046bc46c54303596d78a95395f461d1c6a81b69849e9a35e14408e3ffbe51"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/04/Copia-de-_RET3001-417-3-scaled.jpg",
+      "local": "/images/blog/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/thumbnail.jpg",
+      "bytes": 486297,
+      "sha256": "a5b9983dcf91ab227317d5e2c1ac6d4194321096573c7995e8ba508daab09565"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/tita.webp",
+      "local": "/images/blog/tita-y-la-cueva-dota/thumbnail.webp",
+      "bytes": 143848,
+      "sha256": "94e5dc0abda887d8c3f3b8660862eebf93966670f5c039a848707eed422ba241"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/tita-1-e1694057577540-1024x1024.webp",
+      "local": "/images/blog/tita-y-la-cueva-dota/image-01.webp",
+      "bytes": 85048,
+      "sha256": "4c456fc7a52b1a269ab499cd69f33f182c2d2c1033ae2eb50ecfab2b23e71405"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/entrevista_Tita_01.mp4",
+      "local": "/images/blog/tita-y-la-cueva-dota/media-1.mp4",
+      "bytes": 23550745,
+      "sha256": "4fbafe9e87c46693a75387911816d5d828d8fcaf5164bd9a4cb62eead10de871"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/entrevista_Tita_02.mp4",
+      "local": "/images/blog/tita-y-la-cueva-dota/media-2.mp4",
+      "bytes": 25758141,
+      "sha256": "f7bf3885d22e2c2861f765d6d95093f822830230036b091f3f75c49f00421c37"
+    }
+  ]
+}

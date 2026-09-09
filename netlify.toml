@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+  VITE_SITE_URL = "https://santosrock.com"
+
+# The build generates dist/_redirects with legacy 301 redirects and RSS rewrites.
+# Each canonical route has its own prerendered HTML file.
+# Netlify serves dist/404.html for missing routes with HTTP 404.

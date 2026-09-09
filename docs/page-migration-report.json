@@ -1,0 +1,153 @@
+{
+  "imported": [
+    {
+      "id": 2192,
+      "path": "/galeria/",
+      "sections": 2,
+      "sha256": "57740152eb0366c24749d10e6ca029247ef04828c0ee13dc2528a5830f317cb2"
+    },
+    {
+      "id": 980,
+      "path": "/newsletter/",
+      "sections": 2,
+      "sha256": "2e901ce617b7e88fc2f5fad16a151dfe0da04127f1b724cadbba5519701772e6"
+    },
+    {
+      "id": 285,
+      "path": "/",
+      "sections": 5,
+      "sha256": "87bfda7ee9b740e628f0b1d992b3c3515c8edf9c5ccc7a7cf7f6a0201110f7e2"
+    },
+    {
+      "id": 229,
+      "path": "/proximos-eventos/",
+      "sections": 3,
+      "sha256": "f8dba58b7dbd3a823d386476ba384b6626765a4bcbe859489f414f5ad88f4adc"
+    },
+    {
+      "id": 208,
+      "path": "/preguntas-frecuentes/",
+      "sections": 2,
+      "sha256": "9b504f6dda90fd288c6327b026599a1f4b0545a8e5ea25b5bfde07ca5c6a203e"
+    },
+    {
+      "id": 198,
+      "path": "/contacto/",
+      "sections": 3,
+      "sha256": "024f5ac07366c3a72a5aeba52186f7a038f284e787dabddd68f8e34625e68617"
+    },
+    {
+      "id": 185,
+      "path": "/quienes-somos/",
+      "sections": 5,
+      "sha256": "9342ed76275a4bc6194564994ad1a041d6737866be4764418f71b6566a1ec544"
+    },
+    {
+      "id": 3,
+      "path": "/politica-privacidad/",
+      "sections": 1,
+      "sha256": "a0200137c0bfe0d946e5f0be44b88f3163f4a7879d4eeba6b9969df350700cf7"
+    }
+  ],
+  "assets": [
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/325957634_1353849048717096_1859619040281664698_n.jpg",
+      "local": "/images/pages/325957634_1353849048717096_1859619040281664698_n.jpg",
+      "bytes": 112821,
+      "sha256": "f78fe15db2e4281511eea35e2f561b239b57da96fd8677cc2d527e5bc6d87b65"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/17580-e1608772315136.jpg",
+      "local": "/images/pages/17580-e1608772315136.jpg",
+      "bytes": 37909,
+      "sha256": "6126734528b3dcd113b58e1c99aecd83bca924eaf41ec038b048aa09b39a7781"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/05/RET2591-217_3_11zon-scaled.jpg",
+      "local": "/images/pages/RET2591-217_3_11zon-scaled.jpg",
+      "bytes": 470627,
+      "sha256": "3400518cb6c9d7f614101f603404caa23d7d8d06fb32d04b4479674264a6e9ce"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/10/1000063474.jpg",
+      "local": "/images/pages/1000063474.jpg",
+      "bytes": 91960,
+      "sha256": "05faf98e5e6ff2c3c3dc3c2b5b263c3ab9e91bb99fc8009f395566cc895a28e0"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/09/STEPHANIE.webp",
+      "local": "/images/pages/STEPHANIE.webp",
+      "bytes": 25854,
+      "sha256": "9976537bc5aef5acf5f1f191615abce1991db09f48e61810af20a5651ea4edae"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/09/Copia-de-Logo-Coopedota-1.jpeg",
+      "local": "/images/pages/Copia-de-Logo-Coopedota-1.jpeg",
+      "bytes": 38786,
+      "sha256": "2d279b228615a9bc5ed1956536bc24eadca85aa147149447c4480f439736bcb8"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/09/RET-LOGO-COLOR.svg",
+      "local": "/images/pages/RET-LOGO-COLOR.svg",
+      "bytes": 2513,
+      "sha256": "a58042b5de068d0f911aef6535e66b43c206bf4589e8f78ed3abcfd3154a4fea"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/3440061.jpg",
+      "local": "/images/pages/3440061.jpg",
+      "bytes": 103407,
+      "sha256": "c6034fe2c3b0d31b72a2e5104c87a44d28c219c24cfb95916031d998c2c4eeb8"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/07/B2.webp",
+      "local": "/images/pages/B2.webp",
+      "bytes": 81376,
+      "sha256": "e85e724eaa01fd0f0898e2aa2db824c9924ecba445a6c1aafc565fa556644b6e"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/3382325-e1608772297778.jpg",
+      "local": "/images/pages/3382325-e1608772297778.jpg",
+      "bytes": 43935,
+      "sha256": "60d3bbbdca8f760d91434d27180331c9b2877bad603bd18559bf9cab93bf7cd6"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/05/3440061-e1608772039374.jpg",
+      "local": "/images/pages/3440061-e1608772039374.jpg",
+      "bytes": 53634,
+      "sha256": "3240877578fb0f79b9026faed62efc1e5c9efc87ca82d6be04f7108fb0dd773b"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/07/130.jpg",
+      "local": "/images/pages/130.jpg",
+      "bytes": 91312,
+      "sha256": "05584e8d068c61a67958a592ee2e0cbb7753b875d4f154065eee0b71287ccc8d"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/07/5.jpg",
+      "local": "/images/pages/5.jpg",
+      "bytes": 126357,
+      "sha256": "56e74032727dbb299b2d927de2e19b6ad666368ecfdfd4c33cb9702ad3451497"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2023/07/16.jpg",
+      "local": "/images/pages/16.jpg",
+      "bytes": 52086,
+      "sha256": "9b6ddb1dc65ebbe26d38f2c0f666eab94d42525d5410b69d48f0a3ae6528e01b"
+    },
+    {
+      "source": "https://santosrock.com/wp-content/uploads/2025/09/WhatsApp-Image-2025-08-31-at-20.32.24-1024x840.jpeg",
+      "local": "/images/pages/WhatsApp-Image-2025-08-31-at-20.32.24-1024x840.jpeg",
+      "bytes": 160001,
+      "sha256": "f3db09c106a11cde417783c67bb2ad8c7cea84cef6012b47c582325b25767eab"
+    }
+  ],
+  "corrections": [
+    "Visible telephone 8689-6331 retained; mismatched tel:50684157330 normalized to tel:+50686896331.",
+    "Visible sponsor email info@santosrock.com retained; mismatched mailto:asocul.santosrock@gmail.com normalized to mailto:info@santosrock.com."
+  ],
+  "notes": [
+    "Newsletter currently contains a poster and no subscription form in public WordPress.",
+    "Gallery and events currently contain construction notices.",
+    "Privacy policy copied as published; legacy references to WordPress accounts/comments remain editorial text."
+  ]
+}

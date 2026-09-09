@@ -1,0 +1,142 @@
+{
+  "meta": "Santos Rock – Music festival in the Los Santos region",
+  "nav": {
+    "home": "Home",
+    "about": "About Santos Rock",
+    "contact": "Contact us",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "open": "Open menu",
+    "close": "Close menu",
+    "language": "Select language",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "ROOTED IN MUSIC. BOUNDLESS ENERGY.",
+    "line1": "THE MOUNTAINS",
+    "line2": "HAVE THEIR",
+    "line3": "OWN SOUND.",
+    "description": "We are music, culture, and community. A stage for homegrown talent, in the heart of Costa Rica’s Los Santos region.",
+    "cta": "Discover Santos Rock",
+    "date": "16 JANUARY 2027",
+    "location": "LOS SANTOS REGION, COSTA RICA",
+    "caption": "WHERE LOCAL TALENT GETS LOUD",
+    "edition": "SEE YOU IN 2027",
+    "scroll": "Keep exploring",
+    "headline1": "The mountains",
+    "headline2": "have their",
+    "headline3": "own sound",
+    "welcome": "Music that moves us. People who bring us together. Experience the roots of Santos Rock.",
+    "join": "Get festival updates",
+    "explore": "Explore the festival",
+    "puaCaption": "From Los Santos, with attitude."
+  },
+  "countdown": {
+    "label": "OUR NEXT GATHERING STARTS IN",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "ready": "The day to make the mountains roar is here!"
+  },
+  "ticker": [
+    "LOCAL TALENT",
+    "LIVE MUSIC",
+    "CULTURE",
+    "COMMUNITY"
+  ],
+  "about": {
+    "eyebrow": "MORE THAN A FESTIVAL",
+    "title": "From our land.\nFor our people.",
+    "description": "Santos Rock is a cultural association and music festival in Costa Rica’s Los Santos region. We champion art, culture, and local and young artistic talent.",
+    "detail": "We connect emerging bands with professional stages and established Costa Rican acts. Because the talent in our communities deserves to be heard.",
+    "cards": [
+      {
+        "title": "Talent that grows",
+        "text": "A space for local and young artists with something to say."
+      },
+      {
+        "title": "A professional stage",
+        "text": "Professional sound, lighting, and staging that let the music shine."
+      },
+      {
+        "title": "Music that connects us",
+        "text": "New voices and established national bands sharing the same stage."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "LET’S MAKE SOME NOISE",
+    "title": "Community starts with you.",
+    "description": "Are you an artist, interested in collaborating, or curious about the festival? Our official contact channels will be available here soon.",
+    "status": "Contact channels coming soon"
+  },
+  "footer": {
+    "tagline": "For freedom of expression and cultural rights.",
+    "copyright": "Cultural association · Costa Rica",
+    "back": "Back to top"
+  },
+  "status": {
+    "eyebrow": "WE’RE GETTING THE STAGE READY",
+    "title": "Good things are on the way.",
+    "description": "This page is under construction. More Santos Rock stories, music, and moments are coming soon.",
+    "home": "Back to home",
+    "notFoundTitle": "You’re off the setlist.",
+    "notFoundDescription": "This page doesn’t exist or has moved. Head back home and keep exploring.",
+    "construction": "Under construction"
+  },
+  "blog": {
+    "title": "Blog and News",
+    "intro": "In our blog you can find news about culture, bands, and businesses in Los Santos.",
+    "filter": "Filter by category",
+    "all": "All",
+    "search": "Search articles",
+    "count_one": "{{count}} article",
+    "count_other": "{{count}} articles",
+    "readMore": "Read more",
+    "back": "Back to blog",
+    "empty": "No articles found.",
+    "reset": "Clear filters",
+    "loading": "Loading blog"
+  },
+  "site": {
+    "play": "Play the Santos Rock video",
+    "more": "More information",
+    "faq": "Frequently asked questions",
+    "events": "Upcoming events",
+    "newsletter": "Newsletter",
+    "privacy": "Privacy policy",
+    "notify": "Notify me",
+    "latest": "LATEST STORIES",
+    "newsletterIntro": "Keep up with all the news",
+    "region": "Los Santos region, Costa Rica",
+    "social": "Social media",
+    "newTab": "opens in a new tab",
+    "sponsors": "Making it happen together",
+    "sponsorLabel": "Sponsors"
+  },
+  "categories": {
+    "Cultura": "Culture",
+    "Noticias": "News",
+    "Bandas": "Bands",
+    "Sin categoría": "Uncategorized",
+    "arte": "Art",
+    "cultura": "Culture",
+    "dota": "Dota",
+    "lacueva": "La Cueva",
+    "internacional": "International",
+    "mujeres": "Women",
+    "personajes": "People"
+  },
+  "newsletter": {
+    "title": "Let’s stay in touch.",
+    "description": "Leave your email to receive festival news, music, and Santos Rock activities.",
+    "email": "Email address",
+    "placeholder": "you@example.com",
+    "consent": "I want to subscribe and receive Santos Rock news by email.",
+    "submit": "Subscribe",
+    "sending": "Sending…",
+    "success": "Thank you! We received your subscription request.",
+    "error": "We could not save your request. Please try again in a few minutes."
+  }
+}

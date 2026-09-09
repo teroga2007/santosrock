@@ -1,0 +1,142 @@
+{
+  "meta": "Santos Rock – Festival de música en la Zona de Los Santos",
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Santos Rock",
+    "contact": "Contáctenos",
+    "gallery": "Galería",
+    "blog": "Blog",
+    "open": "Abrir menú",
+    "close": "Cerrar menú",
+    "language": "Seleccionar idioma",
+    "skip": "Saltar al contenido"
+  },
+  "hero": {
+    "eyebrow": "MÚSICA CON RAÍCES. ENERGÍA SIN LÍMITES.",
+    "line1": "LA MONTAÑA",
+    "line2": "TIENE SU",
+    "line3": "PROPIO SONIDO.",
+    "description": "Somos música, cultura y comunidad. Un escenario para el talento de nuestra tierra, en el corazón de la Zona de Los Santos.",
+    "cta": "Conocé Santos Rock",
+    "date": "16 ENERO 2027",
+    "location": "ZONA DE LOS SANTOS, COSTA RICA",
+    "caption": "DONDE EL TALENTO LOCAL SUENA EN GRANDE",
+    "edition": "NOS VEMOS EN 2027",
+    "scroll": "Seguí explorando",
+    "headline1": "La montaña",
+    "headline2": "tiene su",
+    "headline3": "propio sonido",
+    "welcome": "Música que nos mueve. Gente que nos une. Vení a vivir Santos Rock desde la raíz.",
+    "join": "Recibí las novedades",
+    "explore": "Descubrí el festival",
+    "puaCaption": "Desde Los Santos, con actitud."
+  },
+  "countdown": {
+    "label": "EL PRÓXIMO ENCUENTRO EMPIEZA EN",
+    "days": "Días",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos",
+    "ready": "¡Llegó el día de hacer sonar la montaña!"
+  },
+  "ticker": [
+    "TALENTO LOCAL",
+    "MÚSICA EN VIVO",
+    "CULTURA",
+    "COMUNIDAD"
+  ],
+  "about": {
+    "eyebrow": "MUCHO MÁS QUE UN FESTIVAL",
+    "title": "De nuestra tierra.\nPara nuestra gente.",
+    "description": "Santos Rock es una asociación cultural y un festival de música en la Zona de Los Santos, Costa Rica. Nacimos para impulsar el arte, la cultura y el talento artístico local y juvenil.",
+    "detail": "Conectamos a nuevas bandas con escenarios profesionales y con agrupaciones consolidadas de la escena nacional. Porque el talento de nuestros cantones merece escucharse en grande.",
+    "cards": [
+      {
+        "title": "Talento que crece",
+        "text": "Un espacio para artistas locales y jóvenes con mucho por decir."
+      },
+      {
+        "title": "Un escenario de verdad",
+        "text": "Sonido, iluminación y tarima profesional para que la música brille."
+      },
+      {
+        "title": "Música que nos une",
+        "text": "Nuevas voces y agrupaciones nacionales compartiendo el mismo escenario."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "HAGAMOS RUIDO JUNTOS",
+    "title": "La comunidad empieza con vos.",
+    "description": "¿Sos artista, querés colaborar o conocer más del festival? Pronto compartiremos aquí nuestros canales oficiales de contacto.",
+    "status": "Canales de contacto próximamente"
+  },
+  "footer": {
+    "tagline": "Por la libertad de expresión y los derechos culturales.",
+    "copyright": "Asociación cultural · Costa Rica",
+    "back": "Volver arriba"
+  },
+  "status": {
+    "eyebrow": "ESTAMOS PREPARANDO EL ESCENARIO",
+    "title": "Lo bueno está por venir.",
+    "description": "Esta página está en construcción. Pronto habrá más historias, música y momentos de Santos Rock.",
+    "home": "Volver al inicio",
+    "notFoundTitle": "Te saliste del setlist.",
+    "notFoundDescription": "La página que buscás no existe o cambió de lugar. Volvé al inicio y seguí explorando.",
+    "construction": "En construcción"
+  },
+  "blog": {
+    "title": "Blog y noticias",
+    "intro": "En nuestro blog puede encontrar noticias relacionadas a la cultura, las bandas y las empresas de Los Santos.",
+    "filter": "Filtrar por categoría",
+    "all": "Todos",
+    "search": "Buscar artículos",
+    "count_one": "{{count}} artículo",
+    "count_other": "{{count}} artículos",
+    "readMore": "Leer más",
+    "back": "Volver al blog",
+    "empty": "No encontramos artículos.",
+    "reset": "Limpiar filtros",
+    "loading": "Cargando blog"
+  },
+  "site": {
+    "play": "Reproducir video de Santos Rock",
+    "more": "Más información",
+    "faq": "Preguntas frecuentes",
+    "events": "Próximos eventos",
+    "newsletter": "Newsletter",
+    "privacy": "Política de privacidad",
+    "notify": "Notifícame",
+    "latest": "Últimas notas",
+    "newsletterIntro": "Entérate de todas las noticias",
+    "region": "Zona de Los Santos, Costa Rica",
+    "social": "Redes sociales",
+    "newTab": "se abre en una pestaña nueva",
+    "sponsors": "Quienes hacen posible el encuentro",
+    "sponsorLabel": "Patrocinadores"
+  },
+  "categories": {
+    "Cultura": "Cultura",
+    "Noticias": "Noticias",
+    "Bandas": "Bandas",
+    "Sin categoría": "Sin categoría",
+    "arte": "Arte",
+    "cultura": "Cultura",
+    "dota": "Dota",
+    "lacueva": "La Cueva",
+    "internacional": "Internacional",
+    "mujeres": "Mujeres",
+    "personajes": "Personajes"
+  },
+  "newsletter": {
+    "title": "Sigamos en contacto.",
+    "description": "Dejanos tu correo para recibir noticias del festival, música y actividades de Santos Rock.",
+    "email": "Correo electrónico",
+    "placeholder": "tu@correo.com",
+    "consent": "Quiero suscribirme y recibir noticias de Santos Rock por correo electrónico.",
+    "submit": "Suscribirme",
+    "sending": "Enviando…",
+    "success": "¡Gracias! Recibimos tu solicitud de suscripción.",
+    "error": "No pudimos guardar tu solicitud. Intentá nuevamente en unos minutos."
+  }
+}

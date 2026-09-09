@@ -1,0 +1,365 @@
+{
+  "inventory": [
+    {
+      "path": "/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/comments/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/blog/",
+      "kind": "blog",
+      "status": 200
+    },
+    {
+      "path": "/galeria/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/quienes-somos/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/contacto/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/newsletter/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/preguntas-frecuentes/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/politica-privacidad/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/arte/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/cultura/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/dota/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/lacueva/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/proximos-eventos/",
+      "kind": "page",
+      "status": 200
+    },
+    {
+      "path": "/politica-privacidad/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/arte/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tita-y-la-cueva-dota/",
+      "kind": "post",
+      "status": 200
+    },
+    {
+      "path": "/tag/cultura/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/dota/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/lacueva/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tita-y-la-cueva-dota/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/internacional/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/mujeres/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/personajes/",
+      "kind": "tag",
+      "status": 200
+    },
+    {
+      "path": "/tag/internacional/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/mujeres/feed/",
+      "kind": "feed",
+      "status": 200
+    },
+    {
+      "path": "/tag/personajes/feed/",
+      "kind": "feed",
+      "status": 200
+    }
+  ],
+  "tags": [
+    {
+      "slug": "arte",
+      "name": "arte",
+      "postIds": [
+        "2561",
+        "2457",
+        "265"
+      ]
+    },
+    {
+      "slug": "cultura",
+      "name": "cultura",
+      "postIds": [
+        "2561",
+        "2457",
+        "265"
+      ]
+    },
+    {
+      "slug": "dota",
+      "name": "dota",
+      "postIds": [
+        "2561",
+        "2457",
+        "265"
+      ]
+    },
+    {
+      "slug": "lacueva",
+      "name": "lacueva",
+      "postIds": [
+        "2561",
+        "2457",
+        "265"
+      ]
+    },
+    {
+      "slug": "internacional",
+      "name": "internacional",
+      "postIds": [
+        "265"
+      ]
+    },
+    {
+      "slug": "mujeres",
+      "name": "mujeres",
+      "postIds": [
+        "265"
+      ]
+    },
+    {
+      "slug": "personajes",
+      "name": "personajes",
+      "postIds": [
+        "265"
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "from": "/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025",
+      "to": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/"
+    },
+    {
+      "from": "/blog/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/",
+      "to": "/cuando-el-aula-se-convierte-en-tarima-zavaleta-music-fest-2025/"
+    },
+    {
+      "from": "/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock",
+      "to": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/"
+    },
+    {
+      "from": "/blog/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/",
+      "to": "/un-festival-veinte-anos-despues-una-historia-personal-del-santos-rock/"
+    },
+    {
+      "from": "/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina",
+      "to": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/"
+    },
+    {
+      "from": "/blog/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/",
+      "to": "/artistas-de-la-zona-de-los-santos-representan-a-costa-rica-en-album-internacional-por-palestina/"
+    },
+    {
+      "from": "/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar",
+      "to": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/"
+    },
+    {
+      "from": "/blog/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/",
+      "to": "/santo-remedio-en-santos-rock-2025-musica-con-alma-y-conexion-familiar/"
+    },
+    {
+      "from": "/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono",
+      "to": "/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/"
+    },
+    {
+      "from": "/blog/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/",
+      "to": "/no-apto-para-consumo-en-santos-rock-2025-punk-pasion-y-voces-al-unisono/"
+    },
+    {
+      "from": "/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad",
+      "to": "/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/"
+    },
+    {
+      "from": "/blog/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/",
+      "to": "/alphabetics-en-santos-rock-2025-debut-en-los-santos-con-honestidad-y-explosividad/"
+    },
+    {
+      "from": "/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia",
+      "to": "/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/"
+    },
+    {
+      "from": "/blog/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/",
+      "to": "/overseas-en-santos-rock-2025-comunidad-diversidad-y-mosh-como-terapia/"
+    },
+    {
+      "from": "/blog/puerko-xpin-el-regreso-de-una-leyenda-local",
+      "to": "/puerko-xpin-el-regreso-de-una-leyenda-local/"
+    },
+    {
+      "from": "/blog/puerko-xpin-el-regreso-de-una-leyenda-local/",
+      "to": "/puerko-xpin-el-regreso-de-una-leyenda-local/"
+    },
+    {
+      "from": "/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico",
+      "to": "/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/"
+    },
+    {
+      "from": "/blog/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/",
+      "to": "/overshock-en-santos-rock-2025-mosh-energia-y-conexion-con-el-publico/"
+    },
+    {
+      "from": "/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos",
+      "to": "/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/"
+    },
+    {
+      "from": "/blog/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/",
+      "to": "/ominosa-regresa-con-fuerza-al-santos-rock-2025-un-reencuentro-con-la-comunidad-metalera-de-los-santos/"
+    },
+    {
+      "from": "/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras",
+      "to": "/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/"
+    },
+    {
+      "from": "/blog/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/",
+      "to": "/chemicide-en-santos-rock-2025-thrash-metal-costarricense-que-trasciende-fronteras/"
+    },
+    {
+      "from": "/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025",
+      "to": "/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/"
+    },
+    {
+      "from": "/blog/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/",
+      "to": "/rana-bruja-magia-energia-y-surf-en-el-escenario-del-santos-rock-2025/"
+    },
+    {
+      "from": "/blog/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz",
+      "to": "/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/"
+    },
+    {
+      "from": "/blog/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/",
+      "to": "/fuerza-dread-en-santos-rock-2025-compromiso-emocion-y-reggae-con-raiz/"
+    },
+    {
+      "from": "/blog/tita-y-la-cueva-dota",
+      "to": "/tita-y-la-cueva-dota/"
+    },
+    {
+      "from": "/blog/tita-y-la-cueva-dota/",
+      "to": "/tita-y-la-cueva-dota/"
+    },
+    {
+      "from": "/inicio",
+      "to": "/"
+    },
+    {
+      "from": "/inicio/",
+      "to": "/"
+    }
+  ]
+}
