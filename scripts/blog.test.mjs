@@ -77,7 +77,9 @@ test('original copy, heading hierarchy, paragraphs, captions, images and dates a
     const headings = section.find('h1,h2,h3,h4,h5,h6').toArray().filter(el => !/^[A-ZÁÉÍÓÚÑ]$/.test(source(el).text().trim())).map(el => `${el.tagName}:${source(el).text()}`)
     assert.deepEqual(migrated('h1,h2,h3,h4,h5,h6').map((_, el) => `${el.tagName}:${migrated(el).text()}`).get(), headings.map(reviewedCopy), `${post.slug}: headings`)
     assert.equal(migrated('img').length, section.find('img').length, `${post.slug}: images`)
-    assert.equal(migrated('p').length, section.find('p').length, `${post.slug}: paragraphs`)
+    const spacedSource = load(content)
+    spacedSource('.article-embed').remove()
+    assert.equal(migrated('p').length, spacedSource('p').length, `${post.slug}: paragraphs without WordPress spacers`)
     assert.deepEqual(migrated('figcaption,dd').map((_, el) => migrated(el).text()).get(), section.find('figcaption,dd').map((_, el) => source(el).text()).get(), `${post.slug}: captions`)
   }
 })

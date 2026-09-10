@@ -1,5 +1,6 @@
 import { load } from 'cheerio'
 import sanitizeHtml from 'sanitize-html'
+import { normalizeEditorialSpacing } from './editorial-spacing.mjs'
 
 export const spamPattern = /\b(casino|gambling|betting|sportsbook|1xbet|pin[\s-]?up|southwind|bonus\s+codes?|wagering|slots)\b/i
 export const trustedEmbed = value => {
@@ -12,7 +13,7 @@ export const trustedEmbed = value => {
 }
 
 export function sanitizeEditorial(html) {
-  return sanitizeHtml(html, {
+  return normalizeEditorialSpacing(sanitizeHtml(html, {
     allowedTags: ['p', 'br', 'hr', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'b', 'em', 'i', 'u', 's', 'span', 'div', 'blockquote', 'cite', 'a', 'img', 'figure', 'figcaption', 'ul', 'ol', 'li', 'dl', 'dt', 'dd', 'table', 'thead', 'tbody', 'tr', 'th', 'td', 'sup', 'sub', 'iframe', 'video', 'audio', 'source'],
     allowedAttributes: {
       a: ['href', 'title', 'target', 'rel'], img: ['src', 'alt', 'width', 'height', 'loading', 'decoding'],
@@ -31,7 +32,7 @@ export function sanitizeEditorial(html) {
       a: (tagName, attribs) => ({ tagName, attribs: { ...attribs, ...(attribs.target === '_blank' ? { rel: 'noopener noreferrer' } : {}) } }),
       iframe: (tagName, attribs) => ({ tagName, attribs: { ...attribs, title: attribs.title || (attribs.src?.includes('instagram.com') ? 'Instagram' : 'Spotify'), loading: 'lazy', sandbox: 'allow-scripts allow-same-origin allow-popups', referrerpolicy: 'strict-origin-when-cross-origin', allow: 'encrypted-media; fullscreen; picture-in-picture' } }),
     },
-  })
+  }))
 }
 
 export function plainText(html) {
