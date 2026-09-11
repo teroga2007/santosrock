@@ -19,7 +19,7 @@ npm run build
 npm run preview
 ```
 
-Interfaz en `src/locales/es.json` y `src/locales/en.json`. Traducciones completas de las ocho páginas migradas y los catorce artículos en `src/locales/pages.en.json`, `posts.en.json` y `history.en.json`. Español por defecto; la selección se conserva en localStorage y cambia contenido, categorías, búsqueda, fechas y metadatos, sin modificar las URL originales.
+Interfaz en `src/locales/es.json` y `src/locales/en.json`. Traducciones completas de las ocho páginas migradas y los catorce artículos en `src/locales/pages.en.json`, `posts.en.json` y `history.en.json`. La voz de marca de SANTOS ROCK utiliza ustedeo en todos los textos en español: usted, su y conjugaciones como «conozca», «reciba» y «déjenos». Mantener este tratamiento en páginas, botones, formularios y mensajes; evitar tuteo y voseo. Español por defecto; la selección se conserva en localStorage y cambia contenido, categorías, búsqueda, fechas y metadatos, sin modificar las URL originales.
 
 Los catálogos editoriales se organizan por ID original: título, descripción/extracto y nodos de texto del HTML en orden. `node scripts/inspect-translations.mjs posts 2457` muestra las unidades originales con sus índices. `scripts/compile-editorial.mjs` comprueba cobertura y genera `src/locales/content.en.json`, namespace `content` de i18next, al compilar. Si cambia el contenido en español, revisar también su traducción. Se conservan imágenes, videos y contenidos de proveedores externos en su idioma original.
 

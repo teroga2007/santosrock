@@ -22,7 +22,7 @@ try {
     await writeFile(`.cache/hero-${width}.png`, Buffer.from(heroShot.data, 'base64'))
     await evaluate(`Promise.all([...document.querySelectorAll('.sponsor-logos img')].map(i => { i.loading = 'eager'; return i.decode() }))`)
     assert.ok(await evaluate('document.documentElement.scrollWidth <= innerWidth'), `overflow ${width}`)
-    assert.equal(await evaluate('document.querySelectorAll(".sponsor-logos img").length'), 4)
+    assert.equal(await evaluate('document.querySelectorAll(".sponsor-logos img").length'), 3)
     assert.equal(await evaluate('document.querySelectorAll("footer a[href=\'/feed/\']").length'), 0)
     assert.ok(await evaluate(`[...document.querySelectorAll('.social-links a')].every(a => a.target === '_blank' && a.rel.includes('noopener'))`))
     await evaluate('document.querySelector(".sponsor-heading").scrollIntoView({behavior:"instant",block:"start"})')

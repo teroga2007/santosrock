@@ -17,18 +17,18 @@
     "line2": "TIENE SU",
     "line3": "PROPIO SONIDO.",
     "description": "Somos música, cultura y comunidad. Un escenario para el talento de nuestra tierra, en el corazón de la Zona de Los Santos.",
-    "cta": "Conocé Santos Rock",
+    "cta": "Conozca Santos Rock",
     "date": "16 ENERO 2027",
     "location": "ZONA DE LOS SANTOS, COSTA RICA",
     "caption": "DONDE EL TALENTO LOCAL SUENA EN GRANDE",
     "edition": "NOS VEMOS EN 2027",
-    "scroll": "Seguí explorando",
+    "scroll": "Siga explorando",
     "headline1": "La montaña",
     "headline2": "tiene su",
     "headline3": "propio sonido",
-    "welcome": "Música que nos mueve. Gente que nos une. Vení a vivir Santos Rock desde la raíz.",
-    "join": "Recibí las novedades",
-    "explore": "Descubrí el festival",
+    "welcome": "Música que nos mueve. Gente que nos une. Venga a vivir Santos Rock desde la raíz.",
+    "join": "Reciba las novedades",
+    "explore": "Descubra el festival",
     "puaCaption": "Desde Los Santos, con actitud."
   },
   "countdown": {
@@ -67,8 +67,8 @@
   },
   "contact": {
     "eyebrow": "HAGAMOS RUIDO JUNTOS",
-    "title": "La comunidad empieza con vos.",
-    "description": "¿Sos artista, querés colaborar o conocer más del festival? Pronto compartiremos aquí nuestros canales oficiales de contacto.",
+    "title": "La comunidad empieza con usted.",
+    "description": "¿Es artista, quiere colaborar o conocer más del festival? Pronto compartiremos aquí nuestros canales oficiales de contacto.",
     "status": "Canales de contacto próximamente"
   },
   "footer": {
@@ -81,8 +81,8 @@
     "title": "Lo bueno está por venir.",
     "description": "Esta página está en construcción. Pronto habrá más historias, música y momentos de Santos Rock.",
     "home": "Volver al inicio",
-    "notFoundTitle": "Te saliste del setlist.",
-    "notFoundDescription": "La página que buscás no existe o cambió de lugar. Volvé al inicio y seguí explorando.",
+    "notFoundTitle": "Se salió del setlist.",
+    "notFoundDescription": "La página que busca no existe o cambió de lugar. Vuelva al inicio y siga explorando.",
     "construction": "En construcción"
   },
   "blog": {
@@ -106,9 +106,9 @@
     "events": "Próximos eventos",
     "newsletter": "Newsletter",
     "privacy": "Política de privacidad",
-    "notify": "Notifícame",
+    "notify": "Notifíqueme",
     "latest": "Últimas notas",
-    "newsletterIntro": "Entérate de todas las noticias",
+    "newsletterIntro": "Entérese de todas las noticias",
     "region": "Zona de Los Santos, Costa Rica",
     "social": "Redes sociales",
     "newTab": "se abre en una pestaña nueva",
@@ -130,13 +130,13 @@
   },
   "newsletter": {
     "title": "Sigamos en contacto.",
-    "description": "Dejanos tu correo para recibir noticias del festival, música y actividades de Santos Rock.",
+    "description": "Déjenos su correo para recibir noticias del festival, música y actividades de Santos Rock.",
     "email": "Correo electrónico",
-    "placeholder": "tu@correo.com",
+    "placeholder": "nombre@correo.com",
     "consent": "Quiero suscribirme y recibir noticias de Santos Rock por correo electrónico.",
     "submit": "Suscribirme",
     "sending": "Enviando…",
-    "success": "¡Gracias! Recibimos tu solicitud de suscripción.",
-    "error": "No pudimos guardar tu solicitud. Intentá nuevamente en unos minutos."
+    "success": "¡Gracias! Recibimos su solicitud de suscripción.",
+    "error": "No pudimos guardar su solicitud. Intente nuevamente en unos minutos."
   }
 }
