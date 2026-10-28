@@ -40,9 +40,7 @@ function Home({ page }: { page: Page }) {
     <CosmicBackdrop />
     <section className="original-hero hero-encounter" id="inicio">
       <div className="original-hero-copy" lang={i18n.language}>
-        <p className="hero-edition"><span />Santos Rock <b>2027</b></p>
         <h1>{t('hero.headline1')}<br /><span>{t('hero.headline2')}</span><br />{t('hero.headline3')}<i>.</i></h1>
-        <p className="hero-intro">{t('hero.welcome')}</p>
         <div className="hero-actions"><Link className="btn btn-primary" to="/newsletter/">{t('hero.join')}<ArrowUpRight size={19} /></Link><a className="hero-explore" href="#encuentro">{t('hero.explore')}<ArrowDown size={18} aria-hidden="true" /></a></div>
         <p className="hero-place"><MapPin size={14} />{t('site.region')}</p>
       </div>
