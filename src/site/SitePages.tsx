@@ -45,7 +45,12 @@ function Home({ page }: { page: Page }) {
         <p className="hero-intro">{t('landing.intro')}</p>
         <p className="landing-date"><MapPin size={16} /><span>{t('landing.date')}</span></p>
         <div className="ticket-panel" aria-labelledby="ticket-heading">
-          <div className="ticket-price"><div><h2 id="ticket-heading">{t('landing.phase')}</h2><strong>₡10 000</strong></div><p>{t('landing.until')}</p></div>
+          <div className="ticket-price"><div><h2 id="ticket-heading">{t('landing.phase')}</h2><strong>₡13 500</strong></div><p className="ticket-current">{t('landing.current')}</p></div>
+          <dl className="ticket-comparison">
+            <div><dt>{t('landing.phaseOne')} <span>{t('landing.closed')}</span></dt><dd><s>₡10 000</s></dd></div>
+            <div><dt>{t('landing.eventDay')}</dt><dd>₡16 000</dd></div>
+          </dl>
+          <p className="ticket-saving">{t('landing.saving')}</p>
           <a className="btn btn-primary ticket-buy" href="https://latiqueteracr.com/producto/festival-santos-rock-2027/" target="_blank" rel="noopener noreferrer">{t('landing.buy')}<ArrowUpRight size={19} aria-hidden="true" /><span className="sr-only"> ({t('site.newTab')})</span></a>
           <p className="ticket-sinpe">{t('landing.sinpe')} <strong>8689 6331</strong></p>
         </div>

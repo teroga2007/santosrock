@@ -139,19 +139,23 @@
     "success": "Thank you! We received your subscription request.",
     "error": "We could not save your request. Please try again in a few minutes."
   },
-  "metaDescription": "COCOFUNKA lands at Santos Rock on January 16, 2027 in El Guayabal, Costa Rica. Phase 1: ₡10,000 through November 16. SINPE 8689 6331 or La Tiquetera CR.",
+  "metaDescription": "COCOFUNKA at Santos Rock 2027, El Guayabal. Phase 2 tickets: CRC 13,500; event day: CRC 16,000. Save CRC 2,500. SINPE 8689 6331 or La Tiquetera CR.",
   "landing": {
     "edition": "SANTOS ROCK 2027 / SIGNAL CONFIRMED",
     "lands": "lands in",
     "intro": "The signal comes from space. The gathering is in Los Santos. Our headliner is confirmed: get ready for an invasion of live music.",
     "date": "January 16, 2027 ? El Guayabal, Los Santos region",
-    "phase": "TICKETS ? PHASE 1",
-    "until": "Through November 16, 2026",
+    "phase": "TICKETS · PHASE 2",
     "buy": "Buy on La Tiquetera CR",
     "sinpe": "Also via SINPE Móvil",
     "lineup": "Next transmission: the full lineup.",
     "soon": "The complete artist poster is coming soon. COCOFUNKA is the first contact.",
     "notify": "Get the announcement",
-    "explore": "Discover the lineup"
+    "explore": "Discover the lineup",
+    "current": "Available now",
+    "eventDay": "Event day",
+    "saving": "Save CRC 2,500 by buying in phase 2.",
+    "phaseOne": "Phase 1",
+    "closed": "Closed"
   }
 }

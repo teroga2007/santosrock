@@ -190,3 +190,10 @@ body { background: radial-gradient(ellipse at 100% 0, #02262e 0, transparent 55%
   .ticket-price>p { max-width: 120px; font-size: 12px; }
   .lineup-transmission { flex-direction: column; align-items: flex-start; margin: 0 24px 28px; padding: 22px; gap: 16px; }
 }
+.ticket-price>p.ticket-current { color: var(--sr-yellow); border: 1px solid #fcf10655; border-radius: 20px; padding: 5px 10px; font-size: 12px; }
+.ticket-comparison { margin: 20px 0 0; padding-top: 14px; border-top: 1px solid #68c19a44; display: grid; gap: 12px; }
+.ticket-comparison>div { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; color: var(--sr-pale); font-size: 14px; }
+.ticket-comparison dt span { display: inline-block; margin-left: 6px; color: var(--muted); font-size: 11px; }
+.ticket-comparison dd { margin: 0; white-space: nowrap; font-weight: 700; }
+.ticket-comparison s { color: var(--muted); font-weight: 400; }
+.ticket-saving { margin: 16px 0 0; color: var(--sr-yellow); font-size: 14px; line-height: 1.6; font-weight: 600; }
