@@ -165,3 +165,28 @@ body { background: radial-gradient(ellipse at 100% 0, #02262e 0, transparent 55%
   .section-135f2025 { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   .community-cow { width: 150px; height: 195px; justify-self: end; margin-top: -10px; }
 }
+/* The first transmission puts the artist and ticket purchase above the fold. */
+.hero-encounter h1.landing-title { font-size: clamp(38px, 5.5vw, 78px); overflow-wrap: normal; line-height: 1.03; letter-spacing: -2px; margin: 22px 0; }
+.landing-signal { display: flex; align-items: center; gap: 10px; color: var(--sr-mint); font-size: 11px; font-weight: 700; letter-spacing: 1.4px; }
+.landing-date { display: flex; align-items: center; gap: 8px; color: var(--sr-pale); font-size: 13px; margin: 18px 0; }
+.landing-date svg { flex-shrink: 0; }
+.ticket-panel { max-width: 490px; padding: 22px; margin: 24px 0 12px; border: 1px solid var(--sr-yellow); border-radius: 12px; background: linear-gradient(125deg, #0c403bee, #061917ee); box-shadow: 0 0 48px #fcf1060d; }
+.ticket-price { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.ticket-price h2 { margin: 0 0 6px; color: var(--sr-yellow); font-size: 11px; letter-spacing: 1.5px; }
+.ticket-price strong { font-size: clamp(32px, 4vw, 46px); line-height: 1.15; color: var(--sr-moon); }
+.ticket-price>p { max-width: 150px; color: var(--sr-pale); font-size: 13px; line-height: 1.6; }
+.ticket-buy { display: flex; width: 100%; margin-top: 18px; min-height: 50px; height: auto; padding: 12px; white-space: normal; }
+.ticket-sinpe { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 12px; margin: 14px 0 0; font-size: 13px; color: var(--sr-pale); }
+.ticket-sinpe strong { color: var(--sr-moon); font-size: 18px; letter-spacing: 1px; user-select: all; }
+.lineup-transmission { display: flex; justify-content: space-between; align-items: center; gap: 28px; margin: 0 48px 36px; padding: 28px; border: 1px solid #68c19a55; border-radius: 12px; background: #02262e99; scroll-margin-top: 110px; }
+.lineup-transmission h2 { font-size: clamp(23px, 3vw, 32px); line-height: 1.2; margin: 8px 0 12px; color: var(--sr-pale); }
+.lineup-transmission p:not(.eyebrow) { max-width: 620px; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.lineup-transmission .btn { flex-shrink: 0; white-space: normal; }
+@media(max-width:640px) {
+  .hero-encounter h1.landing-title { font-size: clamp(32px, 8.5vw, 54px); letter-spacing: -1px; }
+  .landing-signal { font-size: 9px; letter-spacing: 1px; }
+  .ticket-panel { padding: 18px; }
+  .ticket-price { align-items: flex-start; }
+  .ticket-price>p { max-width: 120px; font-size: 12px; }
+  .lineup-transmission { flex-direction: column; align-items: flex-start; margin: 0 24px 28px; padding: 22px; gap: 16px; }
+}

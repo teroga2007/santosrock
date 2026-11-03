@@ -40,11 +40,22 @@ function Home({ page }: { page: Page }) {
     <CosmicBackdrop />
     <section className="original-hero hero-encounter" id="inicio">
       <div className="original-hero-copy" lang={i18n.language}>
-        <h1>{t('hero.headline1')}<br /><span>{t('hero.headline2')}</span><br />{t('hero.headline3')}<i>.</i></h1>
-        <div className="hero-actions"><Link className="btn btn-primary" to="/newsletter/">{t('hero.join')}<ArrowUpRight size={19} /></Link><a className="hero-explore" href="#encuentro">{t('hero.explore')}<ArrowDown size={18} aria-hidden="true" /></a></div>
-        <p className="hero-place"><MapPin size={14} />{t('site.region')}</p>
+        <p className="landing-signal"><span className="live-dot" />{t('landing.edition')}</p>
+        <h1 className="landing-title">COCOFUNKA<br /><span>{t('landing.lands')}</span><br />El Guayabal<i>.</i></h1>
+        <p className="hero-intro">{t('landing.intro')}</p>
+        <p className="landing-date"><MapPin size={16} /><span>{t('landing.date')}</span></p>
+        <div className="ticket-panel" aria-labelledby="ticket-heading">
+          <div className="ticket-price"><div><h2 id="ticket-heading">{t('landing.phase')}</h2><strong>₡10 000</strong></div><p>{t('landing.until')}</p></div>
+          <a className="btn btn-primary ticket-buy" href="https://latiqueteracr.com/producto/festival-santos-rock-2027/" target="_blank" rel="noopener noreferrer">{t('landing.buy')}<ArrowUpRight size={19} aria-hidden="true" /><span className="sr-only"> ({t('site.newTab')})</span></a>
+          <p className="ticket-sinpe">{t('landing.sinpe')} <strong>8689 6331</strong></p>
+        </div>
+        <a className="hero-explore" href="#lineup">{t('landing.explore')}<ArrowDown size={18} aria-hidden="true" /></a>
       </div>
       <div className="hero-character-scene"><div className="hero-orbit" /><FestivalCharacter character="pua" priority /><p className="character-caption"><span>Púa</span>{t('hero.puaCaption')}</p></div>
+    </section>
+    <section className="lineup-transmission" id="lineup" aria-labelledby="lineup-title">
+      <div><p className="eyebrow">LINEUP / 2027</p><h2 id="lineup-title">{t('landing.lineup')}</h2><p>{t('landing.soon')}</p></div>
+      <Link className="btn btn-ghost" to="/newsletter/">{t('landing.notify')}<ArrowUpRight size={18} aria-hidden="true" /></Link>
     </section>
     <Countdown />
     <div className="original-home-sections" id="encuentro">{page.sections.slice(1, -1).map(section => <SectionContent key={section.id} section={section} />)}</div>

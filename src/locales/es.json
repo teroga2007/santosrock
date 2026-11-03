@@ -1,5 +1,5 @@
 {
-  "meta": "Santos Rock – Festival de música en la Zona de Los Santos",
+  "meta": "Santos Rock 2027: COCOFUNKA en El Guayabal | Entradas",
   "nav": {
     "home": "Inicio",
     "about": "Sobre Santos Rock",
@@ -138,5 +138,20 @@
     "sending": "Enviando…",
     "success": "¡Gracias! Recibimos su solicitud de suscripción.",
     "error": "No pudimos guardar su solicitud. Intente nuevamente en unos minutos."
+  },
+  "metaDescription": "COCOFUNKA aterriza en Santos Rock el 16 de enero de 2027 en El Guayabal, Costa Rica. Fase 1: ₡10 000 hasta el 16 de noviembre. SINPE 8689 6331 o La Tiquetera CR.",
+  "landing": {
+    "edition": "SANTOS ROCK 2027 / SEÑAL CONFIRMADA",
+    "lands": "aterriza en",
+    "intro": "La señal viene del espacio. El encuentro es en Los Santos. Nuestro headliner ya está confirmado: prepárese para una invasión de música en vivo.",
+    "date": "16 de enero de 2027 · El Guayabal, Zona de Los Santos",
+    "phase": "ENTRADAS · FASE 1",
+    "until": "Hasta el 16 de noviembre de 2026",
+    "buy": "Comprar en La Tiquetera CR",
+    "sinpe": "También por SINPE Móvil",
+    "lineup": "La próxima transmisión: el lineup completo.",
+    "soon": "Pronto revelaremos el cartel con todos los artistas. COCOFUNKA es el primer contacto.",
+    "notify": "Recibir el anuncio",
+    "explore": "Descubrir el lineup"
   }
 }

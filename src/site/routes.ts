@@ -30,7 +30,7 @@ export function metadataFor(pathname: string, language = 'es') {
   if (route.page) route.page = localizePage(route.page, language)
   const t = i18n.getFixedT(language)
   const title = route.post ? `${route.post.title} | Santos Rock` : route.page?.path === '/' ? t('meta') : route.page ? `${route.page.title} | Santos Rock` : route.tag ? `${categoryLabel(route.tag.name, language)} | Santos Rock` : route.isBlog ? 'Blog | Santos Rock' : '404 | Santos Rock'
-  const description = route.post?.excerpt || (route.page?.path === '/' ? t('meta') : route.page?.description) || (route.tag ? `Santos Rock · ${categoryLabel(route.tag.name, language)}` : route.isBlog ? t('blog.intro') : t('status.notFoundDescription'))
+  const description = route.post?.excerpt || (route.page?.path === '/' ? t('metaDescription') : route.page?.description) || (route.tag ? `Santos Rock · ${categoryLabel(route.tag.name, language)}` : route.isBlog ? t('blog.intro') : t('status.notFoundDescription'))
   const image = route.post?.thumbnail || route.page?.sections.flatMap(section => section.backgrounds).find(Boolean) || ''
   return { title, description, image, path: route.path, noindex: !route.found, type: route.post ? 'article' : 'website' }
 }
