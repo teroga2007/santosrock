@@ -139,13 +139,12 @@
     "success": "Thank you! We received your subscription request.",
     "error": "We could not save your request. Please try again in a few minutes."
   },
-  "metaDescription": "COCOFUNKA at Santos Rock 2027, El Guayabal. Phase 2 tickets: CRC 13,500; event day: CRC 16,000. Save CRC 2,500. SINPE 8689 6331 or La Tiquetera CR.",
+  "metaDescription": "COCOFUNKA at Santos Rock, January 16, 2027, El Guayabal. {{phase}}: {{price}}. Tickets via SINPE 8689 6331 or La Tiquetera CR.",
   "landing": {
     "edition": "SANTOS ROCK 2027 / SIGNAL CONFIRMED",
     "lands": "lands in",
     "intro": "The signal comes from space. The gathering is in Los Santos. Our headliner is confirmed: get ready for an invasion of live music.",
     "date": "January 16, 2027 ? El Guayabal, Los Santos region",
-    "phase": "TICKETS · PHASE 2",
     "buy": "Buy on La Tiquetera CR",
     "sinpe": "Also via SINPE Móvil",
     "lineup": "Next transmission: the full lineup.",
@@ -154,8 +153,15 @@
     "explore": "Discover the lineup",
     "current": "Available now",
     "eventDay": "Event day",
-    "saving": "Save CRC 2,500 by buying in phase 2.",
+    "saving": "Save {{amount}} by buying in {{phase}}.",
     "phaseOne": "Phase 1",
-    "closed": "Closed"
+    "closed": "Closed",
+    "tickets": "TICKETS",
+    "phaseTwo": "Phase 2",
+    "validity0": "Through November 16, 2026, inclusive.",
+    "validity1": "November 17, 2026 through January 15, 2027.",
+    "validity2": "Event day price: January 16, 2027.",
+    "starts1": "From November 17",
+    "starts2": "January 16, 2027"
   }
 }

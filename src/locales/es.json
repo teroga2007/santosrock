@@ -139,13 +139,12 @@
     "success": "¡Gracias! Recibimos su solicitud de suscripción.",
     "error": "No pudimos guardar su solicitud. Intente nuevamente en unos minutos."
   },
-  "metaDescription": "COCOFUNKA en Santos Rock 2027, El Guayabal. Entradas fase 2: ₡13 500; día del evento: ₡16 000. Ahorre ₡2 500. SINPE 8689 6331 o La Tiquetera CR.",
+  "metaDescription": "COCOFUNKA en Santos Rock, 16 de enero de 2027, El Guayabal. {{phase}}: {{price}}. Entradas por SINPE 8689 6331 o La Tiquetera CR.",
   "landing": {
     "edition": "SANTOS ROCK 2027 / SEÑAL CONFIRMADA",
     "lands": "aterriza en",
     "intro": "La señal viene del espacio. El encuentro es en Los Santos. Nuestro headliner ya está confirmado: prepárese para una invasión de música en vivo.",
     "date": "16 de enero de 2027 · El Guayabal, Zona de Los Santos",
-    "phase": "ENTRADAS · FASE 2",
     "buy": "Comprar en La Tiquetera CR",
     "sinpe": "También por SINPE Móvil",
     "lineup": "La próxima transmisión: el lineup completo.",
@@ -154,8 +153,15 @@
     "explore": "Descubrir el lineup",
     "current": "Disponible ahora",
     "eventDay": "Día del evento",
-    "saving": "Ahorre ₡2 500 comprando en fase 2.",
+    "saving": "Ahorre {{amount}} comprando en {{phase}}.",
     "phaseOne": "Fase 1",
-    "closed": "Finalizada"
+    "closed": "Finalizada",
+    "tickets": "ENTRADAS",
+    "phaseTwo": "Fase 2",
+    "validity0": "Hasta el 16 de noviembre de 2026 inclusive.",
+    "validity1": "Del 17 de noviembre de 2026 al 15 de enero de 2027.",
+    "validity2": "Precio del día del evento: 16 de enero de 2027.",
+    "starts1": "Desde el 17 de noviembre",
+    "starts2": "16 de enero de 2027"
   }
 }

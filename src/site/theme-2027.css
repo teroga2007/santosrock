@@ -197,3 +197,4 @@ body { background: radial-gradient(ellipse at 100% 0, #02262e 0, transparent 55%
 .ticket-comparison dd { margin: 0; white-space: nowrap; font-weight: 700; }
 .ticket-comparison s { color: var(--muted); font-weight: 400; }
 .ticket-saving { margin: 16px 0 0; color: var(--sr-yellow); font-size: 14px; line-height: 1.6; font-weight: 600; }
+.ticket-validity { color: var(--sr-pale); font-size: 13px; line-height: 1.6; margin: 12px 0 0; }

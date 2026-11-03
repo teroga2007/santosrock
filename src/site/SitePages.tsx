@@ -6,6 +6,8 @@ import Countdown from './Countdown'
 import Newsletter from './Newsletter'
 import CosmicBackdrop from './CosmicBackdrop'
 import FestivalCharacter from './FestivalCharacter'
+import { useTicketPhase } from './TicketPhase'
+import { ticketPhases, formatTicketPrice } from './tickets'
 import { localizePage, localizePost, categoryLabel } from './editorial'
 import './site-pages.css'
 
@@ -36,6 +38,8 @@ function SectionContent({ section }: { section: Section }) {
 
 function Home({ page }: { page: Page }) {
   const { t, i18n } = useTranslation()
+  const phase = useTicketPhase()
+  const currentTicket = ticketPhases[phase]
   return <div className="festival-home">
     <CosmicBackdrop />
     <section className="original-hero hero-encounter" id="inicio">
@@ -45,12 +49,12 @@ function Home({ page }: { page: Page }) {
         <p className="hero-intro">{t('landing.intro')}</p>
         <p className="landing-date"><MapPin size={16} /><span>{t('landing.date')}</span></p>
         <div className="ticket-panel" aria-labelledby="ticket-heading">
-          <div className="ticket-price"><div><h2 id="ticket-heading">{t('landing.phase')}</h2><strong>₡13 500</strong></div><p className="ticket-current">{t('landing.current')}</p></div>
+          <div className="ticket-price"><div><h2 id="ticket-heading">{t('landing.tickets')} · {t(`landing.${currentTicket.id}`)}</h2><strong>{formatTicketPrice(currentTicket.price)}</strong></div><p className="ticket-current">{t('landing.current')}</p></div>
+          <p className="ticket-validity">{t(`landing.validity${phase}`)}</p>
           <dl className="ticket-comparison">
-            <div><dt>{t('landing.phaseOne')} <span>{t('landing.closed')}</span></dt><dd><s>₡10 000</s></dd></div>
-            <div><dt>{t('landing.eventDay')}</dt><dd>₡16 000</dd></div>
+            {ticketPhases.map((ticket, index) => index === phase ? null : <div key={ticket.id}><dt>{t(`landing.${ticket.id}`)} <span>{t(index < phase ? 'landing.closed' : `landing.starts${index}`)}</span></dt><dd>{index < phase ? <s>{formatTicketPrice(ticket.price)}</s> : formatTicketPrice(ticket.price)}</dd></div>)}
           </dl>
-          <p className="ticket-saving">{t('landing.saving')}</p>
+          {phase < 2 && <p className="ticket-saving">{t('landing.saving', { amount: formatTicketPrice(ticketPhases[2].price - currentTicket.price), phase: t(`landing.${currentTicket.id}`) })}</p>}
           <a className="btn btn-primary ticket-buy" href="https://latiqueteracr.com/producto/festival-santos-rock-2027/" target="_blank" rel="noopener noreferrer">{t('landing.buy')}<ArrowUpRight size={19} aria-hidden="true" /><span className="sr-only"> ({t('site.newTab')})</span></a>
           <p className="ticket-sinpe">{t('landing.sinpe')} <strong>8689 6331</strong></p>
         </div>

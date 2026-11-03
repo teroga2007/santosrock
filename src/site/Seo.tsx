@@ -2,11 +2,14 @@ import { useTranslation } from 'react-i18next'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { metadataFor, redirectFor } from './routes'
+import { useTicketPhase } from './TicketPhase'
+import { PHASE_TWO_START, EVENT_DAY_START } from './tickets'
 
 export default function Seo() {
   const { i18n } = useTranslation()
   const { pathname } = useLocation()
-  const metadata = metadataFor(redirectFor(pathname) || pathname, i18n.language)
+  const phase = useTicketPhase()
+  const metadata = metadataFor(redirectFor(pathname) || pathname, i18n.language, [PHASE_TWO_START - 1, PHASE_TWO_START, EVENT_DAY_START][phase])
   const { title, description, image, path, noindex, type } = metadata
   useEffect(() => {
     const origin = new URL(import.meta.env.VITE_SITE_URL || 'https://santosrock.com').origin

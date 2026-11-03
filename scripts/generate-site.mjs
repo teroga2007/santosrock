@@ -2,7 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
 import { loadEnv } from 'vite'
 import { load } from 'cheerio'
-import { render, canonicalPaths, metadataFor } from '../.cache/site-ssr/prerender.js'
+import { render, canonicalPaths, metadataFor, PHASE_TWO_START, EVENT_DAY_START } from '../.cache/site-ssr/prerender.js'
 
 const env = loadEnv('production', process.cwd(), 'VITE_')
 const origin = new URL(env.VITE_SITE_URL || 'https://santosrock.com').origin
@@ -16,12 +16,12 @@ async function output(file, text) {
   await mkdir(path.dirname(file), { recursive: true })
   await writeFile(file, text)
 }
-function documentFor(route) {
+function documentFor(route, now) {
   const $ = load(template)
-  const metadata = metadataFor(route)
+  const metadata = metadataFor(route, 'es', now)
   $('title').text(metadata.title)
   $('meta[name="description"]').attr('content', metadata.description)
-  $('#root').html(render(route))
+  $('#root').html(render(route, now))
   if (metadata.noindex) $('head').append('<meta data-site-meta name="robots" content="noindex">')
   else {
     $('head').append(`<link data-site-meta rel="canonical" href="${escape(origin + route)}">`)
@@ -31,6 +31,10 @@ function documentFor(route) {
 }
 
 for (const route of canonicalPaths) await output(path.join('dist', route, 'index.html'), documentFor(route))
+// Edge routing selects the correct complete HTML at request time, including SEO.
+for (const [phase, now] of [PHASE_TWO_START - 1, PHASE_TWO_START, EVENT_DAY_START].entries()) {
+  await output(`dist/ticket-phases/phase-${phase + 1}.html`, documentFor('/', now))
+}
 await output('dist/404.html', documentFor('/404/'))
 await output('dist/en-construccion/index.html', documentFor('/en-construccion/'))
 
