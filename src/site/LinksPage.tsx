@@ -19,10 +19,9 @@ export default function LinksPage() {
     <CosmicBackdrop />
     <div className="links-orbit" aria-hidden="true" />
     <div className="links-content">
-      <p className="landing-signal"><span className="live-dot" />{t('linkHub.signal')}</p>
       <h1>Santos Rock<span>Los Santos, Costa Rica</span></h1>
       <p className="links-intro">{t('linkHub.intro')}</p>
-      <Link className="links-festival" to="/#entradas"><span>SANTOS ROCK 2027</span><strong>COCOFUNKA</strong><span>{t('linkHub.festival')}</span><span className="links-festival-action">{t('linkHub.prices')}<ArrowUpRight size={18} aria-hidden="true" /></span></Link>
+      <Link className="links-festival" to="/#entradas"><span>SANTOS ROCK 2027</span><span>{t('landing.headliner')}</span><strong>COCOFUNKA</strong><span className="links-more-bands">{t('landing.moreBands')}</span><span>{t('linkHub.festival')}</span><span className="links-festival-action">{t('linkHub.prices')}<ArrowUpRight size={18} aria-hidden="true" /></span></Link>
       <nav className="links-destinations" aria-label={t('linkHub.title')}>
         {destinations.map(({ id, href, Icon }) => {
           const content = <><span className="links-icon"><Icon size={23} strokeWidth={1.6} aria-hidden="true" /></span><span><strong>{t(`linkHub.${id}`)}</strong><small>{t(`linkHub.${id}Detail`)}</small></span><ArrowUpRight size={19} aria-hidden="true" /></>

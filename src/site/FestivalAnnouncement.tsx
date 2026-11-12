@@ -13,6 +13,7 @@ export default function FestivalAnnouncement() {
       <p className="landing-signal"><span className="live-dot" />{t('landing.edition')}</p>
       <p className="announcement-headliner">{t('landing.headliner')}</p>
       <h2 id="festival-announcement-title">COCOFUNKA<br /><span>{t('landing.lands')} El Guayabal.</span></h2>
+      <p className="announcement-more-bands">{t('landing.moreBands')}</p>
       <p className="hero-intro">{t('landing.intro')}</p>
       <p className="landing-date"><MapPin size={16} /><span>{t('landing.date')}</span></p>
       <div className="announcement-lineup" id="lineup"><h3>{t('landing.lineup')}</h3><p>{t('landing.soon')}</p><Link className="hero-explore" to="/newsletter/">{t('landing.notify')}<ArrowUpRight size={18} aria-hidden="true" /></Link></div>

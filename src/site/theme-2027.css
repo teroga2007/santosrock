@@ -213,7 +213,6 @@ body { background: radial-gradient(ellipse at 100% 0, #02262e 0, transparent 55%
 .links-page { position: relative; isolation: isolate; overflow: hidden; min-height: calc(100svh - 80px); padding: 52px 24px 40px; }
 .links-page .cosmic-backdrop { opacity: .35; }
 .links-content { position: relative; max-width: 520px; margin: auto; text-align: center; }
-.links-content>.landing-signal { justify-content: center; font-size: 9px; letter-spacing: 1.3px; }
 .links-content h1 { font-size: clamp(42px, 10vw, 62px); line-height: 1.1; letter-spacing: -2px; margin: 22px 0 0; color: var(--sr-pale); }
 .links-content h1 span { display: block; font-size: 11px; line-height: 1.5; letter-spacing: 2px; margin-top: 14px; color: var(--sr-mint); text-transform: uppercase; }
 .links-intro { max-width: 360px; margin: 18px auto 28px; font-size: 14px; line-height: 1.8; color: var(--muted); }
@@ -242,5 +241,7 @@ body { background: radial-gradient(ellipse at 100% 0, #02262e 0, transparent 55%
   .festival-announcement .landing-signal { font-size: 9px; letter-spacing: .7px; }
   .links-page { padding-top: 34px; padding-left: 18px; padding-right: 18px; }
   .links-card { gap: 10px; padding: 14px; }
-  .links-content>.landing-signal { letter-spacing: .6px; font-size: 8px; }
 }
+
+.announcement-more-bands { color: var(--sr-yellow); font-size: 16px; font-weight: 700; letter-spacing: 1.5px; margin: 0 0 20px; }
+.links-festival .links-more-bands { color: var(--sr-yellow); font-size: 13px; font-weight: 700; letter-spacing: 1px; margin: 3px 0; }
