@@ -6,8 +6,7 @@ import Countdown from './Countdown'
 import Newsletter from './Newsletter'
 import CosmicBackdrop from './CosmicBackdrop'
 import FestivalCharacter from './FestivalCharacter'
-import { useTicketPhase } from './TicketPhase'
-import { ticketPhases, formatTicketPrice } from './tickets'
+import FestivalAnnouncement from './FestivalAnnouncement'
 import { localizePage, localizePost, categoryLabel } from './editorial'
 import './site-pages.css'
 
@@ -38,34 +37,17 @@ function SectionContent({ section }: { section: Section }) {
 
 function Home({ page }: { page: Page }) {
   const { t, i18n } = useTranslation()
-  const phase = useTicketPhase()
-  const currentTicket = ticketPhases[phase]
   return <div className="festival-home">
     <CosmicBackdrop />
     <section className="original-hero hero-encounter" id="inicio">
       <div className="original-hero-copy" lang={i18n.language}>
-        <p className="landing-signal"><span className="live-dot" />{t('landing.edition')}</p>
-        <h1 className="landing-title">COCOFUNKA<br /><span>{t('landing.lands')}</span><br />El Guayabal<i>.</i></h1>
-        <p className="hero-intro">{t('landing.intro')}</p>
-        <p className="landing-date"><MapPin size={16} /><span>{t('landing.date')}</span></p>
-        <div className="ticket-panel" aria-labelledby="ticket-heading">
-          <div className="ticket-price"><div><h2 id="ticket-heading">{t('landing.tickets')} · {t(`landing.${currentTicket.id}`)}</h2><strong>{formatTicketPrice(currentTicket.price)}</strong></div><p className="ticket-current">{t('landing.current')}</p></div>
-          <p className="ticket-validity">{t(`landing.validity${phase}`)}</p>
-          <dl className="ticket-comparison">
-            {ticketPhases.map((ticket, index) => index === phase ? null : <div key={ticket.id}><dt>{t(`landing.${ticket.id}`)} <span>{t(index < phase ? 'landing.closed' : `landing.starts${index}`)}</span></dt><dd>{index < phase ? <s>{formatTicketPrice(ticket.price)}</s> : formatTicketPrice(ticket.price)}</dd></div>)}
-          </dl>
-          {phase < 2 && <p className="ticket-saving">{t('landing.saving', { amount: formatTicketPrice(ticketPhases[2].price - currentTicket.price), phase: t(`landing.${currentTicket.id}`) })}</p>}
-          <a className="btn btn-primary ticket-buy" href="https://latiqueteracr.com/producto/festival-santos-rock-2027/" target="_blank" rel="noopener noreferrer">{t('landing.buy')}<ArrowUpRight size={19} aria-hidden="true" /><span className="sr-only"> ({t('site.newTab')})</span></a>
-          <p className="ticket-sinpe">{t('landing.sinpe')} <strong>8689 6331</strong></p>
-        </div>
-        <a className="hero-explore" href="#lineup">{t('landing.explore')}<ArrowDown size={18} aria-hidden="true" /></a>
+        <h1>{t('hero.headline1')}<br /><span>{t('hero.headline2')}</span><br />{t('hero.headline3')}<i>.</i></h1>
+        <div className="hero-actions"><Link className="btn btn-primary" to="/newsletter/">{t('hero.join')}<ArrowUpRight size={19} /></Link><a className="hero-explore" href="#encuentro">{t('hero.explore')}<ArrowDown size={18} aria-hidden="true" /></a></div>
+        <p className="hero-place"><MapPin size={14} />{t('site.region')}</p>
       </div>
       <div className="hero-character-scene"><div className="hero-orbit" /><FestivalCharacter character="pua" priority /><p className="character-caption"><span>Púa</span>{t('hero.puaCaption')}</p></div>
     </section>
-    <section className="lineup-transmission" id="lineup" aria-labelledby="lineup-title">
-      <div><p className="eyebrow">LINEUP / 2027</p><h2 id="lineup-title">{t('landing.lineup')}</h2><p>{t('landing.soon')}</p></div>
-      <Link className="btn btn-ghost" to="/newsletter/">{t('landing.notify')}<ArrowUpRight size={18} aria-hidden="true" /></Link>
-    </section>
+    <FestivalAnnouncement />
     <Countdown />
     <div className="original-home-sections" id="encuentro">{page.sections.slice(1, -1).map(section => <SectionContent key={section.id} section={section} />)}</div>
     <section className="home-notes"><p className="eyebrow">Santos Rock / BLOG</p><h2 lang={i18n.language}>{t('site.latest')}</h2><div className="home-notes-grid">{posts.slice(0, 3).map(post => localizePost(post, i18n.language)).map(post => <article key={post.id} lang={i18n.language}><Link to={postPath(post)}><img src={post.thumbnail} alt="" loading="lazy" /><span>{categoryLabel(post.category, i18n.language)}</span><h3>{post.title}</h3></Link><p>{post.excerpt}</p><Link className="home-read" to={postPath(post)}>{t('blog.readMore')}<ArrowUpRight size={18} /></Link></article>)}</div><Link className="btn btn-ghost" to="/blog/">{t('nav.blog')}<ArrowUpRight size={18} /></Link></section>

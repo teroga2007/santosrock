@@ -90,7 +90,7 @@ test('tag archives and tag RSS contain exactly the source-associated articles', 
 
 test('sitemap contains only canonical HTML routes and 404 is noindex', async () => {
   const $ = load(await readFile('dist/sitemap.xml', 'utf8'), { xmlMode: true })
-  assert.equal($('url').length, 30)
+  assert.equal($('url').length, routes.canonicalHtmlRoutes.length)
   for (const loc of $('loc').toArray()) {
     const route = new URL($(loc).text()).pathname
     assert.ok(routes.canonicalHtmlRoutes.includes(route))

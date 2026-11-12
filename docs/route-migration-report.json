@@ -184,6 +184,7 @@
   "canonicalHtmlRoutes": [
     "/",
     "/blog/",
+    "/links/",
     "/galeria/",
     "/newsletter/",
     "/proximos-eventos/",
@@ -363,6 +364,10 @@
     {
       "from": "/blog",
       "to": "/blog/"
+    },
+    {
+      "from": "/links",
+      "to": "/links/"
     },
     {
       "from": "/galeria",

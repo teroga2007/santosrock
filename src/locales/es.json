@@ -113,7 +113,8 @@
     "social": "Redes sociales",
     "newTab": "se abre en una pestaña nueva",
     "sponsors": "Quienes hacen posible el encuentro",
-    "sponsorLabel": "Patrocinadores"
+    "sponsorLabel": "Patrocinadores",
+    "links": "Todos nuestros enlaces"
   },
   "categories": {
     "Cultura": "Cultura",
@@ -162,6 +163,30 @@
     "validity1": "Del 17 de noviembre de 2026 al 15 de enero de 2027.",
     "validity2": "Precio del día del evento: 16 de enero de 2027.",
     "starts1": "Desde el 17 de noviembre",
-    "starts2": "16 de enero de 2027"
+    "starts2": "16 de enero de 2027",
+    "headliner": "HEADLINER CONFIRMADO"
+  },
+  "linkHub": {
+    "title": "Enlaces oficiales",
+    "metaTitle": "Santos Rock | Enlaces oficiales, entradas y redes",
+    "metaDescription": "Todos los enlaces oficiales de Santos Rock: entradas, SINPE, WhatsApp, canal de difusión, Instagram, TikTok y Facebook. Festival 2027 en El Guayabal.",
+    "signal": "TODAS LAS FRECUENCIAS. UN SOLO LUGAR.",
+    "intro": "Música, comunidad y conexiones de otro planeta. Encuentre su próximo destino.",
+    "festival": "16 enero · El Guayabal",
+    "prices": "Ver entradas y precios",
+    "sinpe": "Entradas por SINPE",
+    "sinpeDetail": "8689 6331 · Le atendemos por WhatsApp",
+    "tickets": "Entradas en La Tiquetera CR",
+    "ticketsDetail": "Santos Rock 2027 · Compra en línea",
+    "channel": "Canal de difusión",
+    "channelDetail": "Reciba las novedades por WhatsApp",
+    "web": "Explore Santos Rock",
+    "webDetail": "Festival, historias y nuestra comunidad",
+    "instagram": "Instagram",
+    "instagramDetail": "@santosrockcr",
+    "tiktok": "TikTok",
+    "tiktokDetail": "@santos.rock",
+    "facebook": "Facebook",
+    "facebookDetail": "Santos Rock Fest"
   }
 }

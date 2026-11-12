@@ -8,14 +8,15 @@ import legacy from '../data/legacy-routes.json'
 export { posts, pages, legacy }
 export const normalizePath = (path: string) => path === '/' ? '/' : `${path.replace(/\/+$/, '')}/`
 export const postPath = (post: { sourceUrl?: string; slug: string }) => post.sourceUrl ? new URL(post.sourceUrl).pathname : `/${post.slug}/`
-export const canonicalPaths = ['/', '/blog/', ...pages.filter(page => page.path !== '/').map(page => page.path), ...posts.map(postPath), ...legacy.tags.map(tag => `/tag/${tag.slug}/`)]
+export const canonicalPaths = ['/', '/blog/', '/links/', ...pages.filter(page => page.path !== '/').map(page => page.path), ...posts.map(postPath), ...legacy.tags.map(tag => `/tag/${tag.slug}/`)]
 
 export function resolveRoute(pathname: string) {
   const path = normalizePath(pathname)
   const post = posts.find(post => postPath(post) === path)
   const page = pages.find(page => page.path === path)
   const tag = legacy.tags.find(tag => `/tag/${tag.slug}/` === path)
-  return { path, post, page, tag, isBlog: path === '/blog/', found: Boolean(post || page || tag || path === '/blog/') }
+  const isLinks = path === '/links/'
+  return { path, post, page, tag, isLinks, isBlog: path === '/blog/', found: Boolean(post || page || tag || isLinks || path === '/blog/') }
 }
 
 export function redirectFor(pathname: string) {
@@ -31,8 +32,8 @@ export function metadataFor(pathname: string, language = 'es', now = Date.now())
   if (route.page) route.page = localizePage(route.page, language)
   const t = i18n.getFixedT(language)
   const ticket = ticketPhases[ticketPhaseAt(now)]
-  const title = route.post ? `${route.post.title} | Santos Rock` : route.page?.path === '/' ? t('meta') : route.page ? `${route.page.title} | Santos Rock` : route.tag ? `${categoryLabel(route.tag.name, language)} | Santos Rock` : route.isBlog ? 'Blog | Santos Rock' : '404 | Santos Rock'
-  const description = route.post?.excerpt || (route.page?.path === '/' ? t('metaDescription', { phase: t(`landing.${ticket.id}`), price: formatTicketPrice(ticket.price) }) : route.page?.description) || (route.tag ? `Santos Rock · ${categoryLabel(route.tag.name, language)}` : route.isBlog ? t('blog.intro') : t('status.notFoundDescription'))
-  const image = route.post?.thumbnail || route.page?.sections.flatMap(section => section.backgrounds).find(Boolean) || ''
+  const title = route.isLinks ? t('linkHub.metaTitle') : route.post ? `${route.post.title} | Santos Rock` : route.page?.path === '/' ? t('meta') : route.page ? `${route.page.title} | Santos Rock` : route.tag ? `${categoryLabel(route.tag.name, language)} | Santos Rock` : route.isBlog ? 'Blog | Santos Rock' : '404 | Santos Rock'
+  const description = (route.isLinks ? t('linkHub.metaDescription') : undefined) || route.post?.excerpt || (route.page?.path === '/' ? t('metaDescription', { phase: t(`landing.${ticket.id}`), price: formatTicketPrice(ticket.price) }) : route.page?.description) || (route.tag ? `Santos Rock · ${categoryLabel(route.tag.name, language)}` : route.isBlog ? t('blog.intro') : t('status.notFoundDescription'))
+  const image = route.post?.thumbnail || route.page?.sections.flatMap(section => section.backgrounds).find(Boolean) || (route.isLinks ? '/logo_SR_blanco.png' : '')
   return { title, description, image, path: route.path, noindex: !route.found, type: route.post ? 'article' : 'website' }
 }

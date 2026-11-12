@@ -113,7 +113,8 @@
     "social": "Social media",
     "newTab": "opens in a new tab",
     "sponsors": "Making it happen together",
-    "sponsorLabel": "Sponsors"
+    "sponsorLabel": "Sponsors",
+    "links": "All our links"
   },
   "categories": {
     "Cultura": "Culture",
@@ -162,6 +163,30 @@
     "validity1": "November 17, 2026 through January 15, 2027.",
     "validity2": "Event day price: January 16, 2027.",
     "starts1": "From November 17",
-    "starts2": "January 16, 2027"
+    "starts2": "January 16, 2027",
+    "headliner": "CONFIRMED HEADLINER"
+  },
+  "linkHub": {
+    "title": "Official links",
+    "metaTitle": "Santos Rock | Official links, tickets and social media",
+    "metaDescription": "All official Santos Rock links: tickets, SINPE, WhatsApp, broadcast channel, Instagram, TikTok and Facebook. Festival 2027 in El Guayabal.",
+    "signal": "EVERY FREQUENCY. ONE PLACE.",
+    "intro": "Music, community and connections from another planet. Find your next destination.",
+    "festival": "January 16 · El Guayabal",
+    "prices": "See tickets and prices",
+    "sinpe": "Tickets via SINPE",
+    "sinpeDetail": "8689 6331 · Contact us on WhatsApp",
+    "tickets": "Tickets on La Tiquetera CR",
+    "ticketsDetail": "Santos Rock 2027 · Buy online",
+    "channel": "Broadcast channel",
+    "channelDetail": "Get the latest news on WhatsApp",
+    "web": "Explore Santos Rock",
+    "webDetail": "Festival, stories and our community",
+    "instagram": "Instagram",
+    "instagramDetail": "@santosrockcr",
+    "tiktok": "TikTok",
+    "tiktokDetail": "@santos.rock",
+    "facebook": "Facebook",
+    "facebookDetail": "Santos Rock Fest"
   }
 }
